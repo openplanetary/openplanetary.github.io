@@ -14,9 +14,9 @@ color:
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
+- name:
+  pic:
+  position:
   social:
     - title: twitter
       url: #
@@ -25,9 +25,9 @@ people:
     - title: stack-overflow
       url: #
 
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
+- name:
+  pic:
+  position:
   social:
     - title: twitter
       url: #
@@ -36,8 +36,8 @@ people:
     - title: linkedin
       url: #
 
-- name: Diana Petersen
-  pic: 3
+- name:
+  pic:
   position: Lead Developer
   social:
     - title: twitter
