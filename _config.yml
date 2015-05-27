@@ -9,7 +9,7 @@ description: "Join the growing community of planetary scientists and mappers usi
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: ef880f #fed136
-  secondary: fec503
+  secondary: F2B46B #fec503
   secondary-dark: 333
 
 # Team names, titles and social links
