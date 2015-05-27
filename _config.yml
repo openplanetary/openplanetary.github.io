@@ -55,6 +55,8 @@ social:
     url: http://stackoverflow.com/questions/tagged/planetary
   - title: github
     url: http://github.com/openplanetary
+  - title: google
+    url: http://plus.google.com/openplanetary
 
 # Postal address (add as many lines as necessary)
 address:
