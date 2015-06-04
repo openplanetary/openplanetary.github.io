@@ -54,7 +54,6 @@ h5,
 h6 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
 }
 
 .img-centered {
@@ -360,7 +359,6 @@ section h3.section-subheading {
     text-transform: none;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
-    color: #A5A4A4;
     font-style: italic;
     font-weight: 200;
     line-height: 1.3;
