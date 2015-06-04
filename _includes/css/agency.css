@@ -124,7 +124,7 @@ fieldset[disabled] .btn-primary.active {
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
     color: #fff;
     background-color: #{{ site.color.primary }};
@@ -172,13 +172,17 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: #303E4D;
+    min-height: 0px;
 }
 
 .navbar-default .navbar-brand {
     /*font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;*/
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #{{ site.color.primary }};
+    padding-top: 15px;
+    padding-right: 15px;
+    height: 0px;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -195,6 +199,8 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-toggle {
     border-color: #{{ site.color.primary }};
     background-color: #{{ site.color.primary }};
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -211,10 +217,14 @@ fieldset[disabled] .btn-xl.active {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #ef880f;
+    color: #{{ site.color.primary }};
 }
 
-.navbar-default .nav li a:hover,
+.navbar-default .nav li a:hover {
+    outline: 0;
+    color: #{{ site.color.secondary }};
+}
+
 .navbar-default .nav li a:focus {
     outline: 0;
     color: #{{ site.color.primary }};
@@ -255,7 +265,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color: #303E4D;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -265,8 +275,8 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
-    /*color: #fff;*/
-    color: #ef880f;
+    color: #fff;
+    /*color: #ef880f;*/
     background-attachment: scroll;
     background-image: url(../img/header-bg.jpg);
     background-position: center center;
@@ -278,52 +288,60 @@ header {
 }
 
 header .intro-text {
-    padding-top: 100px;
+    padding-top: 310px;
     padding-bottom: 50px;
 }
 
 header .intro-text .intro-heading {
-    margin-bottom: 5px;
-    /*text-transform: uppercase;*/
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 50px;
+    margin-top: -50px;
+    opacity: 1.0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 48px;
+    font-weight: 200;
+    line-height: 75px;
+    color: #fffff;
 }
 
 header .intro-text .intro-lead-in {
-    margin-bottom: 5px;
+    margin-bottom: 45px;
     /*font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;*/
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 22px;
-    /*font-style: italic;*/
-    line-height: 22px;
+    font-family: Lato, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    letter-spacing: 1px;
+    font-weight: 200;
+    font-size: 20px;
+    opacity: 0.8;
+    line-height: 25px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 550px;
-        padding-bottom: 100px;
-    }
-
-    header .intro-text .intro-lead-in {
-        margin-bottom: 25px;
-        text-transform: uppercase;
-        font-family: Lato, "Helvetica Neue",Helvetica,Arial,sans-serif;
-        letter-spacing: 4px;
-        font-weight: 100;
-        font-size: 35px;
-        opacity: 0.8;
-        line-height: 40px;
+        padding-top: 430px;
+        padding-bottom: 170px;
     }
 
     header .intro-text .intro-heading {
         margin-top: -50px;
-        opacity: 0.8;
-        font-family: NotesStyleBold, Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 60px;
-        font-weight: 700;
+        opacity: 0.99;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 48px;
+        font-weight: 200;
         line-height: 75px;
+        color: #fffff;
+    }
+
+    header .intro-text .intro-lead-in {
+        margin-bottom: 50px;
+        margin-top: 15px;
+        font-family: Lato, "Helvetica Neue",Helvetica,Arial,sans-serif;
+        letter-spacing: 3px;
+        font-weight: 200;
+        font-size: 26px;
+        opacity: 0.8;
+        line-height: 31px;
+        padding-left: 14%;
+        padding-right: 14%;
     }
 }
 
@@ -338,12 +356,13 @@ section h2.section-heading {
 }
 
 section h3.section-subheading {
-    margin-bottom: 75px;
+    margin-bottom: 65px;
     text-transform: none;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    color: #A5A4A4;
     font-style: italic;
-    font-weight: 400;
+    font-weight: 200;
     line-height: 1.3;
     padding-right: 10%;
     padding-left: 10%;
@@ -351,7 +370,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        /*padding: 150px 0;*/
     }
 }
 
@@ -663,7 +682,7 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222;
+    background-color: #303E4D;
     background-image: url(../img/map-image.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -765,7 +784,7 @@ ul.social-buttons li a {
     line-height: 40px;
     outline: 0;
     color: #fff;
-    background-color: #222;
+    background-color: #303E4D;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
