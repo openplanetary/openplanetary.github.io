@@ -1,0 +1,69 @@
+---
+layout:   page
+title:    Blog
+description: "News, updates, articles and tips from OpenPlanetary members and guests"
+permalink: /blog/categories/
+---
+{% comment%}
+Here we generate all the categories.
+{% endcomment%}
+
+{% assign rawcats = "" %}
+{% for post in site.posts %}
+{% assign tcats = post.category | join:'|' | append:'|' %}
+{% assign rawcats = rawcats | append:tcats %}
+{% endfor %}
+
+{% assign rawcats = rawcats | split:'|' | sort %}
+
+{% assign cats = "" %}
+
+{% for cat in rawcats %}
+{% if cat != "" %}
+
+{% if cats == "" %}
+{% assign cats = cat | split:'|' %}
+{% endif %}
+
+{% unless cats contains cat %}
+{% assign cats = cats | join:'|' | append:'|' | append:cat | split:'|' %}
+{% endunless %}
+{% endif %}
+{% endfor %}
+
+<ul class="nav nav-tabs">
+  <li role="presentation"><a href="{{ site.baseurl }}/blog">Latest</a></li>
+  <li role="presentation"><a href="#">Featured</a></li>
+  <li role="presentation" class="active"><a href="#">By categories</a></li>
+  <li role="presentation"><a href="{{ site.baseurl }}/blog/tags">By tags</a></li>
+</ul>
+
+<div class="posts">
+
+<div class="category-list">
+{% for ct in cats %}
+<a href="#{{ ct | slugify }}" class="post-category"><i class="fa fa-circle" aria-hidden="true"></i> {{ ct }} </a>
+{% endfor %}
+</div>
+
+{% for ct in cats %}
+<h2 id="{{ ct | slugify }}">{{ ct }}</h2>
+<ul>
+  {% for post in site.posts %}
+  {% if post.category contains ct %}
+  <li>
+    <span>
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      <small class="text-muted">{{ post.date | date_to_string }}</small>
+      {% for tag in post.tags %}
+      <a class="post-small-tag" href="{{ site.baseurl }}/blog/tags#{{ tag | slugify }}"><i class="fa fa-tag" aria-hidden="true"></i> {{ tag }}</a>
+      {% endfor %}
+    </span>
+  </li>
+  {% endif %}
+  {% endfor %}
+</ul>
+<hr>
+{% endfor %}
+
+</div>

@@ -1,0 +1,100 @@
+---
+layout: default
+---
+
+<!-- Post Header -->
+<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1>{{ page.title }}</h1>
+                    {% if page.subtitle %}
+                      <h2 class="subheading">{{ page.subtitle }}</h2>
+                    {% endif %}
+
+                    {% assign author = site.data.members[page.author] %}
+                    <span class="meta">Posted by <b>{% if author %}<a href="{{ site.baseurl }}/blog/authors#{{ author.name | slugify }}">{{ author.name }}</a>{% elsif page.author %}{{ page.author }}{% else %}{{ site.title }} Team {% endif %}</b> on {{ page.date | date: "%B %-d, %Y" }}</span>
+
+                    <div>
+                      <a class="post-category-header" href="{{ site.baseurl }}/blog/categories#{{ page.category | slugify }}"><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;{{ page.category }}</a><br>
+                      <div style="margin-top: 0.5em;">
+                        {% for tag in page.tags %}
+                        <a class="post-tag" href="{{ site.baseurl }}/blog/tags#{{ tag | slugify }}"><i class="fa fa-tag" aria-hidden="true"></i> {{ tag }}</a>
+                        {% endfor %}
+                      </div>
+                    </div>
+                    <span class="improve-post"><a href="https://github.com/openplanetary/newwebsite/edit/master/{{ page.path }}" target="_blank" title="Edit on GitHub"><i class="fa fa-pencil"></i>&nbsp;Improve this post</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+				{{ content }}
+
+                <hr>
+
+                <ul class="pager">
+                    {% if page.previous.url %}
+                    <li class="previous">
+                        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
+                    </li>
+                    {% endif %}
+                    {% if page.next.url %}
+                    <li class="next">
+                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
+                    </li>
+                    {% endif %}
+                </ul>
+
+                <!-- Discuss on Slack -->
+
+                <div class="slack">
+
+                  <a class="slack-btn" href="https://openplanetary.slack.com/messages/{% if page.slack_channel %}{{ page.slack_channel}} {% else %}general{% endif %}" target="_blank">
+                    <img src="{{ site.baseurl }}/img/slack-icon.png">
+                    <span>Discuss on <b>Slack</b></span>
+                  </a>
+                  <p class="slack-info">We use Slack for all our real-time community communication.
+                  You can request membership to the OpenPlanetary Slack team <a href="#">here</a>.
+                  Alternatively, you can leave a comment below for a more public discussion.</p>
+                </div>
+
+                <!-- Comments -->
+
+                <h3>COMMENTS</h3>
+
+                <div id="disqus_thread"></div>
+                <script>
+
+                /**
+                 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
+
+                // var disqus_config = function () {
+                //     this.page.url = "{{ page.url }}";  // Replace PAGE_URL with your page's canonical URL variable
+                //     this.page.identifier = "{{ page.url }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                // };
+
+                (function() { // DON'T EDIT BELOW THIS LINE
+                    var d = document, s = d.createElement('script');
+                    s.src = '//openplanetary.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+            </div>
+        </div>
+    </div>
+</article>
+
+<hr>

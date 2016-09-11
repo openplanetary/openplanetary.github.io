@@ -1,0 +1,25 @@
+# Site settings
+title: OpenPlanetary
+description: "OpenPlanetary is an online community and framework for planetary research and education professionals, and the rest of us!"
+header-img: img/page-bg.jpg
+email: openplanetary@gmail.com
+copyright_name: OpenPlanetary
+# baseurl: "/newwebsite"
+url: "http://openplanetary.co"
+twitter_username: openplanetary
+github_username:  openplanetary
+email_username: openplanetary@gmail.com
+slack_team: openplanetary
+
+# Google Analytics
+google_tracking_id: UA-83996008-1
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: "/blog/:categories/:title.html"
+paginate: 5
+paginate_path: "/blog/page:num/"
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed, jekyll-gist, jekyll-seo-tag]

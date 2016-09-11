@@ -1,0 +1,53 @@
+---
+layout: page
+title: Blog
+description: "News, updates, articles and tips from the OpenPlanetary members and guests"
+header-img: "img/blog-bg.jpg"
+---
+
+<ul class="nav nav-tabs">
+  <li role="presentation" class="active"><a href="#">Latest</a></li>
+  <li role="presentation"><a href="#">Featured</a></li>
+  <li role="presentation"><a href="{{ site.baseurl }}/blog/categories">By categories</a></li>
+  <li role="presentation"><a href="{{ site.baseurl }}/blog/tags">By tags</a></li>
+</ul>
+<br>
+
+{% for post in paginator.posts %}
+<div class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+        <h2 class="post-title">            {{ post.title }}
+        </h2>
+        {% if post.subtitle %}
+        <h3 class="post-subtitle">
+            {{ post.subtitle }}
+        </h3>
+        {% endif %}
+    </a>
+    {% assign author = site.data.members[post.author] %}
+    <p class="post-meta">Posted by {% if author %}{{ author.name }}{% else %}{{ site.title }} Team {% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
+</div>
+<hr>
+{% endfor %}
+
+<!-- Pager -->
+{% if paginator.total_pages > 1 %}
+<ul class="pager">
+    {% if paginator.previous_page %}
+    <li class="previous">
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+    </li>
+    {% endif %}
+    {% if paginator.next_page %}
+    <li class="next">
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+    </li>
+    {% endif %}
+</ul>
+{% endif %}
+
+<!-- <div>
+  <h1>Posts Archive</h1>
+  <a href="{{ '/blog/category.html' | prepend: site.baseurl }}">Browse posts by categories</a><br>
+  <a href="{{ '/blog/tag.html' | prepend: site.baseurl }}">Browse posts by tags</a>
+</div> -->

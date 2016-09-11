@@ -1,0 +1,110 @@
+# Team names, titles and social links
+nmanaud:
+  name: Nicolas Manaud
+  membership: admin
+  pic: manaud.jpg
+  position: Data UI/UX Designer <br><i>(Co-founder)</i>
+  twitter: nmanaud
+  github: nmanaud
+  slack: nmanaud
+  web: http://nicolasmanaud.com
+  email:
+aprossi:
+  name: Angelo Pio Rossi
+  membership: admin
+  pic: rossi.png
+  position: Planetary Scientist <br><i>(Co-founder)</i>
+  twitter: arosp
+  github: aprossi
+  slack: aprossi
+  web: http://aprossi.eu
+  email:  
+thare:
+  name: Trent Hare
+  membership: admin
+  pic: hare.jpg
+  position: Planetary Cartographer <br><i>(Co-founder)</i>
+  twitter:
+  github: thareUSGS
+  slack: thare
+  web:
+  email:
+jmcauliffe:
+  name: Jonathan McAuliffe
+  membership: admin
+  pic: mcauliffe.jpg
+  position: Operations Analyst <br><i>(Co-founder)</i>
+  twitter: johnnycakes79
+  github: johnnycakes79
+  slack: jmcauliffe
+  web:
+  email: watch.n.learn@gmail.com
+svangasselt:
+  name: Stephan van Gasselt
+  membership: admin
+  pic: vangasselt.gif
+  position: Planetary Scientist
+  twitter: svangasselt
+  github:
+  slack: svangasselt
+  web:
+  email:
+smartinez:
+  name: Santa Martinez
+  membership: admin
+  pic: martinez.jpg
+  position: Archive Scientist
+  twitter: santa_martinez
+  github:
+  slack: smartinez
+  web:
+  email:
+maye:
+  name: Michael Aye
+  membership: admin
+  pic: aye.jpg
+  position: Planetary Scientist
+  twitter: michaelaye
+  github: michaelaye
+  slack: michaelaye
+  web:
+  email:
+vgalluzzi:
+  name: Valentina Galluzzi
+  membership: admin
+  pic: galluzzi.jpg
+  position: Geological Mapper
+  twitter:
+  github:
+  slack: vgalluzzi
+  web:
+  email:
+cmillion:
+  name: Chase Million
+  membership: admin
+  pic: million.jpg
+  position: Software Developer
+  twitter:
+  github: cmillion
+  slack: cmillion
+  web: http://www.millionconcepts.com
+  email:
+azinzi:
+  name: Angelo Zinzi
+  membership: admin
+  pic: zinzi.jpg
+  position: Software Developer
+  twitter:
+  github: angelozinzi
+  slack: azinzi
+  web:
+  email:
+mdamore:
+  name: Mario D'Amore
+  membership: contributor
+  pic:
+  position:
+  twitter: kidpixo
+  github: kidpixo
+  slack: mariodamore
+  web:

@@ -1,0 +1,35 @@
+---
+layout: page
+title: "Authors"
+description: "List of OpenPlanetary Blog authors"
+permalink: /blog/authors/
+---
+
+{% for member in site.data.members %}
+{% if  member[1].github  %}
+
+<div style="text-align: center;">
+<span id="{{ member[1].name | slugify }}">{{ member[1].name }}</span><br>
+<span class="text-muted small">{{ member[1].position }}</span>
+<ul class="list-inline social-buttons" style="margin:0.5em 0 1.5em 0;">
+    {% if  member[1].slack %}
+      <li><a href="https://openplanetary.slack.com/messages/@{{ member[1].slack }}" target="_blank"><i class="fa fa-slack"></i></a></li>
+    {% endif %}
+    {% if  member[1].twitter %}
+      <li><a href="https://twitter.com/{{ member[1].twitter }}" target="_blank"><i class="fa fa-twitter"></i></a></li>
+    {% endif %}
+    {% if  member[1].github %}
+      <li><a href="https://twitter.com/{{ member[1].github }}" target="_blank"><i class="fa fa-github"></i></a></li>
+    {% endif %}
+    {% if  member[1].web %}
+      <li><a href="{{ member[1].web }}" target="_blank"><i class="fa fa-globe"></i></a></li>
+    {% endif %}
+    {% if  member[1].email %}
+      <li><a href="mailto:{{ email }}"><i class="fa fa-envelope"></i></a></li>
+    {% endif %}
+</ul>
+<hr>
+</div>
+
+{% endif %}
+{% endfor %}
