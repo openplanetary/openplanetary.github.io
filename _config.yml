@@ -13,6 +13,11 @@ slack_team: openplanetary
 # SEO-specific tags
 twitter:
   username: openplanetary
+image:
+  twitter: /img/op-webintent.png
+  facebook: /img/op-webintent.png
+  height: 275
+  width: 435
 
 # Google Analytics
 google_tracking_id: UA-83996008-1
