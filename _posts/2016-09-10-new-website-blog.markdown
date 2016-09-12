@@ -10,7 +10,7 @@ slack_channel: op-blog
 image: /img/op-webintent.png
 ---
 
-Since we started the *OpenPlanetary* initiative a year ago, we have been trying to keep our community alive on the best effort basis, considering that we are all volunteering and busy with our daily obligations. Our driver is that we believe [this effort is worthy and can benefit us all](http://openplanetary.co/blog/community/why-openplanetary.html). Lastly, we have been exchanging ideas on how to expose and engage more with the planetary science community at large, with what you do and what we talk about within Slack.
+Since we started the *OpenPlanetary* initiative a year ago, we have been trying to keep our community alive on the best effort basis, considering that we are all volunteering and busy with our daily obligations. Our driver is that we believe [this effort is worthy and can benefit us all](http://openplanetary.co/blog/community/why-openplanetary.html). Lately, we have been exchanging ideas on how to expose and engage more with the planetary science community at large, with what you do and what we talk about within Slack.
 
 **Today, we're happy to announce our new [website](http://openplanetary.co), and [blog](http://openplanetary.co/blog)!**
 
