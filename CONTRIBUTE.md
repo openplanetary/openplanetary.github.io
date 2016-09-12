@@ -16,8 +16,6 @@ Note: Consider using the `_drafts` directory for drafting your blog post first.
 
 Topics are not limited but include planetary data, tools, workflow, science, community events; for example: availability of planetary data, including information on how the data are found, downloaded, processed, and used for cartography and scientific analysis; trends in data storage and rapid access; analysis and visualization tools using current and new algorithms and methods.
 
-TBW
-
 ## Post files
 
 Post files are located in the [_posts](https://github.com/openplanetary/newwebsite/tree/master/_posts) directory. These files are generally Markdown or HTML, but can be other formats with the proper converter installed. All posts must have YAML Front Matter, and they will be converted from their source format into an HTML page that is part of your static site.
@@ -69,7 +67,7 @@ Should you have any images in your post, upload in `img/` directory using the `p
 
 #### Gist and Syntax highlighting
 
-The easiest way to achieve automatic syntax highlighting for most programming languages within a post is, rather than include a [markdown code block](https://guides.github.com/features/mastering-markdown/) is to use a Gist, which renders already code and even Jupyter notebooks (.ipynb), e.g. with:
+The easiest way to achieve automatic syntax highlighting for most programming languages within a post, rather than include a [markdown code block](https://guides.github.com/features/mastering-markdown/), is to use a [gist](https://gist.github.com/), which renders already code and even Jupyter notebooks (.ipynb), e.g. with:
 
 ```
 {% gist user/dac0f38f4991f8da9fcfe3722728ce16 %}
