@@ -82,4 +82,4 @@ The procedure above is well suited for including Jupyter notebooks, rendering st
 * Make sure that the filename _in gist_ has a .ipynb extension (so that gist knows to render it correctly).
 * Copy user/gistid (see example above) and embed it into your post.
 
-Please note that if you have in addition any markdown code blocks, e.g. above the embedded .ipynb, in order for this procedure to work you should use ``` rather than TAB (see example [here](https://github.com/openplanetary/newwebsite/edit/master/_posts/2016-09-10-w10n.md))
+Please note that if you have in addition any markdown code blocks, e.g. above the embedded .ipynb, in order for this procedure to work you should use ``` rather than TAB (see example [here](https://github.com/openplanetary/openplanetary.github.io/blob/master/_posts/2016-09-12-w10n.md))
