@@ -7,7 +7,7 @@ nmanaud:
   twitter: nmanaud
   github: nmanaud
   slack: nmanaud
-  web: http://nicolasmanaud.com
+  web:
   email:
 aprossi:
   name: Angelo Pio Rossi
@@ -18,7 +18,7 @@ aprossi:
   github: aprossi
   slack: aprossi
   web: http://aprossi.eu
-  email:  
+  email:
 thare:
   name: Trent Hare
   membership: admin

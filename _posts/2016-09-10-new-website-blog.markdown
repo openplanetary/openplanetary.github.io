@@ -15,7 +15,7 @@ Since we started the *OpenPlanetary* initiative a year ago, we have been trying 
 
 We aim to regularly publish a new post that will hopefully be useful to the community and encourage public discussion on the blog, as well as on Slack. Topics won't be limited but will include news, updates and tips about planetary data, tools, workflows, science, and community events.
 
-An ongoing project idea has been to develop an open-source *resources catalog*. However, we have decided that by using a flexible and collaborating blogging system, we would be able to aggregate many resources that we will be able to better structured and give access to at a latter stage.
+An ongoing project idea has been to develop an open-source *resources catalog*. However, we have decided that by using a flexible and collaborative blogging system, we would be able to aggregate many resources that we will be able to better structured and give access to at a latter stage.
 
 This is just the beginning of a new experiment and for that reason, your feedback, suggestions, ideas and contribution will be much appreciated. Should you be interested in using our new blogging platform to share your experience and knowledge in the field you are specialised in, please don't hesitate to [contact us](http://openplanetary.co/about).
 
