@@ -13,6 +13,7 @@ slack_team: openplanetary
 # SEO-specific tags
 twitter:
   username: openplanetary
+  description: "OpenPlanetary is an online community and framework for planetary research and education professionals, and the rest of us!"
 image: /img/op-people-bg.jpg
 social:
   - title: twitter
