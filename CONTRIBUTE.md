@@ -80,7 +80,7 @@ The easiest way to achieve automatic syntax highlighting for most programming la
 The procedure above is well suited for including Jupyter notebooks, rendering structure, cell content, output imagery and in-line plots. The procedure for including .ipynb files into a post is as follows:
 
 * Create your .ipynb jupyter notebook (e.g. locally on your system)
-* Open the .ipynb file with a text editor and copy all the content (it might be a lot, e.g. if you have images encoded) into a new [gist](https://gist.github.com/). Some [Jupyter extension/plugin](https://github.com/ipython-contrib/jupyter_contrib_nbextensions/tree/b29c698394239a6931fa4911440550df214812cb/src/jupyter_contrib_nbextensions/nbextensions/gist_it) might facilitate that
-* copy user/gistid (see example above) and embed it into your post.
+* Open the .ipynb file with a text editor and copy all the content (it might be a lot, e.g. if you have images encoded) into a new [gist](https://gist.github.com/). Some [Jupyter extension/plugin](https://github.com/ipython-contrib/jupyter_contrib_nbextensions/tree/b29c698394239a6931fa4911440550df214812cb/src/jupyter_contrib_nbextensions/nbextensions/gist_it) might facilitate that.
+* Copy user/gistid (see example above) and embed it into your post.
 
-Please note that if you have in addition any markdown code blocks, e.g. above the embedded .ipynb, in order for this procedure to work you should use ``` rather than TAB.
+Please note that if you have in addition any markdown code blocks, e.g. above the embedded .ipynb, in order for this procedure to work you should use ``` rather than TAB (see example [here](https://github.com/openplanetary/newwebsite/edit/master/_posts/2016-09-10-w10n.md))
