@@ -10,8 +10,10 @@ github_username:  openplanetary
 email_username: openplanetary@gmail.com
 slack_team: openplanetary
 
+# SEO-specific tags
 twitter:
   username: openplanetary
+image: /img/op-people-bg.jpg
 
 # Google Analytics
 google_tracking_id: UA-83996008-1
