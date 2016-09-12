@@ -14,6 +14,9 @@ slack_team: openplanetary
 twitter:
   username: openplanetary
 image: /img/op-people-bg.jpg
+social:
+  - title: twitter
+    url: http://twitter.com/openplanetary
 
 # Google Analytics
 google_tracking_id: UA-83996008-1
