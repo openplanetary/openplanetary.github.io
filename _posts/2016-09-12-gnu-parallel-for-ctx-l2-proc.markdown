@@ -5,6 +5,7 @@ subtitle:   "MRO CTX isis3 level 2 processing with a small python script"
 author:     aprossi
 category: Tools
 tags: [ctx, mro, gist, isis3, Python]
+image: /img/op-webintent.png
 ---
 
 Using normal posts and a simple user/gist_number, e.g.

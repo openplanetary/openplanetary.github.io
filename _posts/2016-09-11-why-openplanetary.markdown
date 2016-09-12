@@ -7,6 +7,7 @@ header-img:
 category: Community
 tags: [motivation, data, sharing]
 slack_channel: science
+image: /img/op-webintent.png
 ---
 The *Open* attribute is being attached to several concepts lately. *Science*, *data* are some of the most obvious.
 
