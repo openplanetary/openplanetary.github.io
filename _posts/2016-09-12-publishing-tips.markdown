@@ -6,7 +6,7 @@ author:    aprossi
 header-img:
 category: Science
 tags: [Publication, Journal, Open Access]
-image: /img/op-webintent.png
+image:
 ---
 
 Best practice and advices making openly available scholarly publications and data:
