@@ -672,9 +672,9 @@ a.slack-btn:hover {
 
 #what-we-offer .fa-stack .fa-circle {
     color: #c9d2da;
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
     text-decoration: none;
 }
 
