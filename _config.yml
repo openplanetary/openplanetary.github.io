@@ -7,7 +7,7 @@ copyright_name: OpenPlanetary
 # url: http://openplanetary.co/
 twitter_username: openplanetary
 github_username:  openplanetary
-email_username: openplanetary@gmail.com
+email_username: hello@openplanetary.co
 slack_team: openplanetary
 
 # SEO-specific tags
@@ -18,6 +18,7 @@ image:
   facebook: /img/op-webintent.png
   height: 275
   width: 435
+logo: /img/op_logo.png
 
 # Google Analytics
 google_tracking_id: UA-83996008-1
