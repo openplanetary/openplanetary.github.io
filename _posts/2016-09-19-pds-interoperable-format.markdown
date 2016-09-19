@@ -69,7 +69,7 @@ products at least). Heck, we could even support a "raw" Geotiff with a
 PDS 3 or 4 label pointing inside at the pixels, but raw Tiffs lose
 many benefits like tiles and compression capabilities.
 
-lots more information about PDS4: [http://sbndev.astro.umd.edu/wiki/PD
+Lots more information about PDS4: [http://sbndev.astro.umd.edu/wiki/PD
 S4_Data_Structures](http://sbndev.astro.umd.edu/wiki/PDS4_Data_Structu
 res)<br><br>
 
