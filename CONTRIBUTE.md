@@ -2,11 +2,11 @@
 
 To publish on the OpenPlanetary Blog, you need at have a GitHub account.
 
-At the moment, only the OP GitHub [op-team](https://github.com/orgs/openplanetary/teams/op-team) have write permission to the openplanetary.github.io repository, but any GitHub users can make a pull request to upload a post file in the [_posts](https://github.com/openplanetary/newwebsite/tree/master/_posts) directory.
+At the moment, only the OP GitHub [op-team](https://github.com/orgs/openplanetary/teams/op-team) have write permission to the openplanetary.github.io repository, but any GitHub users can make a pull request to upload a post file in the [_posts](https://github.com/openplanetary/openplanetary.github.io/tree/master/_posts) directory.
 
 It is possible to post a blog (feel free to correct update) with any of those options:
 
-* Creating directly a file following the [template](https://github.com/openplanetary/tree/master/_drafts/yyyy-mm-dd-post-template.markdown)
+* Creating directly a file following the [template](https://github.com/openplanetary/openplanetary.github.io/blob/master/_drafts/yyyy-mm-dd-post-template.markdown)
 * Pulling, creating, committing and pushing (once in the OP GitHub op-team, please ask if needed)
 * Forking and creating a pull request with your additional post in.
 
@@ -18,7 +18,7 @@ Topics are not limited but include planetary data, tools, workflow, science, com
 
 ## Post files
 
-Post files are located in the [_posts](https://github.com/openplanetary/newwebsite/tree/master/_posts) directory. These files are generally Markdown or HTML, but can be other formats with the proper converter installed. All posts must have YAML Front Matter, and they will be converted from their source format into an HTML page that is part of your static site.
+Post files are located in the [_posts](https://github.com/openplanetary/openplanetary.github.io/tree/master/_posts) directory. These files are generally Markdown or HTML, but can be other formats with the proper converter installed. All posts must have YAML Front Matter, and they will be converted from their source format into an HTML page that is part of your static site.
 
 File naming scheme is: `YYYY-MM-DD-post-title.markdown`, where `YYYY-MM-DD` is the date at which the post will be published.
 
@@ -44,10 +44,10 @@ slack_channel: channel1
 * `layout`: specifies layout to be use for generating the HTML post: always `post`
 * `title`: specifies title of your post. E.g.: "My awesome workflow"
 * `subtitle`: specifies the subtitle of your post. It appears on the post header, and recent posts page.
-* `author`: specifies the post author (only one per post) through a `member_id`, defined in [_data/members.yml](https://github.com/openplanetary/newwebsite/tree/master/_data/members.yml). If empty, "OpenPlanetary Team" author will be used. List of authors (members with a GitHub account) is available [here](http://openplanetary.github.io/newwebsite/blog/authors).
-* `header-img` [Optional]: Default post header image is [img/page-bg.jpg](https://openplanetary.github.io/newwebsite/img/page-bg.jpg). Eg.: "img/post-bg-05.jpg".
+* `author`: specifies the post author (only one per post) through a `member_id`, defined in [_data/members.yml](https://github.com/openplanetary/openplanetary.github.io/blob/master/_data/members.yml). If empty, "OpenPlanetary Team" author will be used. List of authors (members with a GitHub account) is available [here](http://openplanetary.co/blog/authors).
+* `header-img` [Optional]: Default post header image is [img/page-bg.jpg](http://openplanetary.co/img/page-bg.jpg). Eg.: "img/post-bg-05.jpg".
 * `category`: specifies the post category. There is only one category per post: `Data`, `Tools`, `Science`, `Community`
-* `tags`: There can be several tags per post, e.g: `[ctx, mro, gist, isis3, Python]`. Try to avoid duplicates, look at existing tags [here](https://openplanetary.github.io/newwebsite/blog/tags/) first.
+* `tags`: There can be several tags per post, e.g: `[ctx, mro, gist, isis3, Python]`. Try to avoid duplicates, look at existing tags [here](http://openplanetary.co/blog/tags/) first.
 * `slack_channel` [Optional]: specifies Slack channel readers will be directed to to discuss internally with members
 
 
