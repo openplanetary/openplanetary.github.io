@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "How the PDS data format works."
+title:      "How the PDS data format works"
 subtitle:   
 author:     cmillion
 header-img:
