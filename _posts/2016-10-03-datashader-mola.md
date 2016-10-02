@@ -1,13 +1,13 @@
 ---
-layout:     post
-title:      "Handle millions of points in seconds"
-subtitle:   
-author:     mdamore
-header-img:
-category: Tools
-tags: [reduction, data , Python]
-slack_channel: tools
-image:
+layout        : post
+title         : "Representations of large datasets with Datashader"
+subtitle      : "How to meaningfully visualize millions of points in seconds"
+author        : mdamore
+header-img    :
+category      : Tools
+tags          : [reduction, data , Python]
+slack_channel : tools
+image         :
 ---
 
 Watching Scipy videos always brings interesting findings.
@@ -48,7 +48,7 @@ I'm more than impressed!
 
 [^pandas]: you are using pandas for tabular data, I hope.
 
-Obviously, a more powerful machine achieves better results: on my desktop MacPro ( 32 Cores / 64 GB RAM ) it took and order of magnitude less.
+Obviously, a more powerful machine achieves better results: on my desktop MacPro ( 32 Cores / 64 GB RAM ) it took an order of magnitude less.
 
 Datashader works pretty well in combination with [Bokeh](http://bokeh.pydata.org), always from Continuum Analytics.
 The last cell in the notebook below will produce an interactive plot with live data reduction every time the user pans or zooms.
