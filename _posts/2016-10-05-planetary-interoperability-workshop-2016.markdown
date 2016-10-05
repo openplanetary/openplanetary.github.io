@@ -2,7 +2,7 @@
 layout:        post
 title:         "Planetary Interoperability Workshop 2016"
 subtitle:      "EPSC-DPS interoperability session"
-authors:       bcecconi
+author:       bcecconi
 category:      Community
 tags:          [VESPA, PDS, SPASE, Workshop]
 slack_channel: europlanet-vespa
