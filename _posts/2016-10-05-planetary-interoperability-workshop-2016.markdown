@@ -12,7 +12,7 @@ slack_channel: europlanet-vespa
 + Date: Sunday, October 16th, 2016
 + Time: 1pm to 4pm
 + Location: Caltech (Pasadena, CA) Cahill Building, room 370
-+ Access Map: http://www.caltech.edu/map/cahill-center-for-astronomy-and-astrophysics
++ Access Map: [http://www.caltech.edu/map/cahill-center-for-astronomy-and-astrophysics](http://www.caltech.edu/map/cahill-center-for-astronomy-and-astrophysics)
 
 This workshop is replacing the regular "Planetary Interoperability" session that has been held at each EPSC meeting for several years. As it was not possible to include this session in the EPSC-DPS official program this year, we decided to organise a separate workshop. 
 
