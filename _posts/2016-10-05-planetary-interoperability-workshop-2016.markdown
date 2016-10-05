@@ -26,4 +26,4 @@ This workshop is replacing the regular "Planetary Interoperability" session that
 + Stéphane Erard, LESIA, Observatoire de Paris, France
 + Daniel J Crichton, NASA-JPL, Pasadena, CA, USA
 
-# [More info](https://voparis-confluence.obspm.fr/pages/viewpage.action?pageId=3047498)
+[More info](https://voparis-confluence.obspm.fr/pages/viewpage.action?pageId=3047498)
