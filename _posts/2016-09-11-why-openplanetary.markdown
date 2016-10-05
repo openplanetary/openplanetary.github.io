@@ -54,7 +54,7 @@ If you want to share info on, contribute to, or seek cooperation for Planetary S
 
 ## Where to go?
 
-Where to go next is not only in the hands of the [these individuals](https://openplanetary.github.io/newwebsite/about/), but we would like to change, also with small-scale efforts, the way Planetary Science is practiced, towards a more open, collaborative approach.
+Where to go next is not only in the hands of the [these individuals](http://openplanetary.co/about/), but we would like to change, also with small-scale efforts, the way Planetary Science is practiced, towards a more open, collaborative approach.
 
 Broader efforts are also inspiring and consistent with ours, such as the recent [OpenUniverse initiative](http://www.unoosa.org/res/oosadoc/data/documents/2016/aac_1052016crp/aac_1052016crp_6_0_html/AC105_2016_CRP06E.pdf)
 
