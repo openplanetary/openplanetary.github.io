@@ -12,7 +12,7 @@ image: img/nmanaud/wom-opm-header.jpg
 
 ## HOW IT STARTED
 
-*"Where On Mars?"* started off early 2015 at the Euporean Space Astronomy Centre (ESAC) in Madrid (Spain) as a trainee project with [**Oriol Boix**](https://twitter.com/oriolbx), in collaboration with the [CARTO](https://carto.com) team: [**Carla Iriberri**](https://twitter.com/iriberri1) and [**Andrew Hill**](https://twitter.com/andrewxhill), and with the support from planetary scientists: [Peter Grindrod](https://twitter.com/Peter_Grindrod) (UK NASA RPIF/UCL) and Ernst Hauber (DLR/Berlin).
+*"Where On Mars?"* started off early 2015 at the European Space Astronomy Centre (ESAC) in Madrid (Spain) as a trainee project with [**Oriol Boix**](https://twitter.com/oriolbx), in collaboration with the [CARTO](https://carto.com) team: [**Carla Iriberri**](https://twitter.com/iriberri1) and [**Andrew Hill**](https://twitter.com/andrewxhill), and with the support from planetary scientists: [Peter Grindrod](https://twitter.com/Peter_Grindrod) (UK NASA RPIF/UCL) and Ernst Hauber (DLR/Berlin).
 
 I came up with the idea while I was working as Archive Scientist for the ESA's Mars Express and ExoMars 2016 missions. The initial goal was to help increase public awareness of the ExoMars 2020 Rover mission, while experimenting with the use of modern open-source web mapping technologies applied to planetary science data and geospatial information.
 
@@ -49,7 +49,7 @@ Open source and collaborative from the start, we made these data available to th
 
 The project and interactive map was first presented and introduced at the [2015 European Planetary Science Conference](https://youtu.be/xps8nQwxM14) in Nantes (France) by myself, and featured at the [2015 Visualised Conference](https://vimeo.com/156503185) in New York (USA) by [Aurelia Moser](https://twitter.com/auremoser), and at the [2015 ESA's EO Open Science Conference](http://www.esa.int/spaceinvideos/Videos/2015/10/Scientific_Communication_and_Visualization) in Rome (Italy) by [Javier de la Torre](https://twitter.com/jatorre). It was also used on the [ESA's Robotic Exploration of Mars website](http://exploration.esa.int/mars/56622-exomars-2018-landing-site-search-to-narrow/) around the time of the 3rd ExoMars Rover landing site selection workshop.
 
-Thank to all the initiatives above, and our [@whereonmars](https://twitter.com/whereonmars) Twitter handle, we managed to engage with ~**3500 users** in the last year; with an average of ~67 users per week, and 17.8% returning users.
+Thanks to all the initiatives above, and our [@whereonmars](https://twitter.com/whereonmars) Twitter handle, we managed to engage with ~**3500 users** in the last year; with an average of ~67 users per week, and 17.8% returning users.
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">. <a href="https://twitter.com/whereonmars">@whereonmars</a> site looking great on my extra wide-screen monitor. Very useful! <a href="https://t.co/i2cDk2QvDp">pic.twitter.com/i2cDk2QvDp</a></p>&mdash; James Sprinks (@spacepasty) <a href="https://twitter.com/spacepasty/status/669470892280422401">November 25, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -73,9 +73,9 @@ Conducting this project and collaborating with developers, scientists, and the o
 
 > Why only telling stories about the ExoMars 2020 mission? Why not making it possible to tell stories about everything that happen or exist on Mars? Clouds, dust storms, dunes, landings, discoveries, celestial events, resources, human settlement, etc.. ?
 
-Planetary satellite images and maps are being increasingly produced by the scientific community, and typically shared as images, in scientific publications, presentations, and news media websites. However, static images lack of interactivity and contextual information, immediately accessible for further exploration and understanding.
+Planetary satellite images and maps are being increasingly produced by the scientific community, and typically shared as images, in scientific publications, presentations, and news media websites. However, static images lack interactivity and contextual information, and are therefore not immediately accessible for further exploration and understanding.
 
-We believe that interactive web maps are a powerful way of *telling stories*, *communicating* and *educating* people who, over the last decade, have become familiar with tools such as Google Maps. A few excellent planetary web map interfaces exist but they are either too complex to use for non-experts (E.g.: [PDS Geosciences Node Orbital Data Explorer (ODE)](http://ode.rsl.wustl.edu/)), or are closed-systems (E.g.: [Mars Trek](http://marstrek.jpl.nasa.gov/)) that do not allows anyone to publish and share their content on.
+We believe that interactive web maps are a powerful way of *telling stories*, *communicating* and *educating* people who, over the last decade, have become familiar with tools such as Google Maps. A few excellent planetary web map interfaces exist but they are either too complex to use for non-experts (E.g.: [PDS Geosciences Node Orbital Data Explorer (ODE)](http://ode.rsl.wustl.edu/)), or are closed-systems (E.g.: [Mars Trek](http://marstrek.jpl.nasa.gov/)) that do not allow anyone to publish and share their content on.
 
  **We are missing an Open Planetary Mapping platform to easily create and share geospatial data sets, basemaps and map visualisations**.
 
@@ -95,11 +95,11 @@ Recently, we announced that "Where On Mars?" had a new home within the *OpenPlan
 
 Well, the plan is essentially to propose and help building an Open Planetary Mapping platform using "Where On Mars?" building blocks with the support of experts from within the OpenPlanetary community, as well as with any potential users of such a platform; including content creators, communicators, and consumers.
 
-Here are a few ideas, paths we could take and experiment, for starting an *OpenPlanetaryMap* initiative together:
+Here are a few ideas, paths we could take and experiment with, for starting an *OpenPlanetaryMap* initiative together:
 
 - Crowdsourcing an open repository of Mars geospatial data sets, basemaps, map visualisations
 - Building a web interface exposing content from this open repository
-- Researching how to create for people an emotional connection with Mars
+- Researching how to create an emotional connection with Mars for everyone
 - Designing the most beautifully crafted and engaging interactive map of Mars
 - Seeking kick-starter funding (ok, may be that one should be first! ;)
 - Moving on to the next planet!
