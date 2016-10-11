@@ -63,7 +63,7 @@ We recommend Markdown. Here is a few resources to get started with format:
 
 #### Images
 
-Should you have any images in your post, upload in the relevant `img/` subdirectory (i.e. using your username, as listed on [members data](https://github.com/openplanetary/openplanetary.github.io/blob/master/_data/members.yml)) using the `post-` prefix, e.g. posts by nmanaud are on [img/nmanaud](https://github.com/openplanetary/openplanetary.github.io/tree/master/img/nmanaud)
+Should you have any images in your post, upload in the relevant `img/` subdirectory (i.e. using your username, as listed on [members data](https://github.com/openplanetary/openplanetary.github.io/blob/master/_data/members.yml)) using the `post-` prefix, e.g. posts by _nmanaud_ are on [img/nmanaud](https://github.com/openplanetary/openplanetary.github.io/tree/master/img/nmanaud)
 
 #### Gist and Syntax highlighting
 
