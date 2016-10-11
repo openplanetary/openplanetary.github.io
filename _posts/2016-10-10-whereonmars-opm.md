@@ -8,7 +8,7 @@ header-img: img/nmanaud/wom-opm-header.jpg
 category: Community
 tags: [Mars, Interactive Map, Open Data, Dataviz, Story telling]
 slack_channel: whereonmars-opm
-image: img/nmanaud/wom-opm-webintent.png
+image: /img/nmanaud/wom-opm-webintent.png
 ---
 
 ## HOW IT STARTED
