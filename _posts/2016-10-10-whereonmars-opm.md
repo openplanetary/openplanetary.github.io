@@ -2,6 +2,7 @@
 layout:     post
 title:      '"Where On Mars?" Interactive Map'
 subtitle:   "Building blocks of an Open Planetary Mapping platform for Researchers, Educators, and the General Public"
+description:   "Building blocks of an Open Planetary Mapping platform for Researchers, Educators, and the General Public"
 author:     nmanaud
 header-img: img/nmanaud/wom-opm-header.jpg
 category: Community
