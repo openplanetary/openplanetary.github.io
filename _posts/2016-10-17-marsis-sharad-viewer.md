@@ -44,7 +44,7 @@ To properly select the radargrams to show, the viewer rely on a MARSIS and SHARA
 
 Tracks data include geometric data, relevant metadata and, for MARSIS, quality indexes for each acquisition frequency band.
 
-More information are available here https://github.com/eSpaceEPFL/marsissharadviewer/blob/master/tracks_db_docs/_build/latex/MARSgroundpenetratingradarstracksGISvectorlayers.pdf.
+More information are available [here](https://github.com/eSpaceEPFL/marsissharadviewer/blob/master/tracks_db_docs/_build/latex/MARSgroundpenetratingradarstracksGISvectorlayers.pdf).
 
 [![Screenshot](/img/fcantini/map.png "QGIS map with MARSIS tracks")]()
 
