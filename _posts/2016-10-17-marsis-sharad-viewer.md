@@ -34,7 +34,7 @@ By selecting the data of interest on the main QGIS map, the viewer can show rada
 
 SHARAD radargrams are fetched by default from the official data repository. Since MARSIS level 2 data release is ongoing, a local MARSIS radargrams repository is currently needed. As MARSIS data will be released, the official repository will become the default source for the plug-in.
 
-More information are available in the plug-in installation and user's guide (https://github.com/eSpaceEPFL/marsissharadviewer/blob/master/docs/_build/latex/maarsissharadviewer.pdf).
+More information are available in the plug-in installation and [user's guide](https://github.com/eSpaceEPFL/marsissharadviewer/blob/master/docs/_build/latex/maarsissharadviewer.pdf).
 
 
 
