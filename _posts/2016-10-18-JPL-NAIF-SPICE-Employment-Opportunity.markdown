@@ -11,9 +11,13 @@ slack_channel: general
 JPL's Navigation and Ancillary Information Facility (NAIF) seeks to hire a new, permanent staff member. 
 
 We are looking for someone who can fill multiple, quite different roles within NAIF.
+
 + **SPICE Development**:  conceive, design, implement, document and test "small," single purpose SPICE APIs as well as "large" subsystem API families.
+
 + **Mission operations**: operate and problem solve SPICE kernel production for NASA flight projects (ongoing and new) that hire NAIF to fill the SPICE operations role. 
+
 + **SPICE archive production**:  produce and validate high quality SPICE archives for delivery to the Planetary Data System, using both the PDS3 and PDS4 archive standards, for ongoing and new missions. 
+
 + **User support**:  having obtained a broad understanding of the full SPICE domain, provide consultation and problem solving for SPICE users, and participate in the development of training materials and the teaching of SPICE classes.
 
 Persons with an aerospace, mechanical, or electrical engineering degree, or having an applied math background, are most likely to best meet our needs. Whatever the background, having a proven, strong engineering programming aptitude is required.
