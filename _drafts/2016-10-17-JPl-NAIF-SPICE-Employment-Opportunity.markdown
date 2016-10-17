@@ -36,4 +36,4 @@ It usually takes substantial time to train a new NAIF team member… often as mu
 
 Even though SPICE components are not restricted under U.S. export regulations, we are looking for a U.S. citizen or permanent resident alien (holder of a "green card").
 
-Anyone interested in being considered for a job with NAIF as described above could send a note of interest to NAIF Manager Charles Acton at charles.acton(at)jpl.nasa.
+Anyone interested in being considered for a job with NAIF as described above could send a note of interest to NAIF Manager Charles Acton at charles.acton@jpl.nasa.
