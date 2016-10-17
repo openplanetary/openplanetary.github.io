@@ -65,7 +65,7 @@ Anton Ivanov (anton.ivanov@epfl.ch)
 
 ### Acknowledgment
 
-**The research leading to these results has received funding from the European Union’s Seventh Framework Programme (FP7/2007-2013) under iMars grant agreement n° 607379.** http://www.i-mars.eu/
+**The research leading to these results has received funding from the European Union’s Seventh Framework Programme (FP7/2007-2013) under iMars grant agreement n° 607379.** [http://www.i-mars.eu/](http://www.i-mars.eu)
 
 
 
