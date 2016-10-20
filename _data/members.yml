@@ -126,12 +126,12 @@ fcantini:
   github: fcantini-epfl
   slack: federico.cantini
   web:
-mbentley:
-  name: Mark Bentley
+msbentley:
+  name: Mark S. Bentley
   membership: contributor
   pic:
   position:
   twitter: msbentley
-  github: 
-  slack: 
-  web:
+  github: msbentley
+  slack: msbentley
+  web: http://www.lunartech.org
