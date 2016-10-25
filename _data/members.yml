@@ -59,8 +59,8 @@ smartinez:
   slack: smartinez
   web:
   email:
-maye:
-  name: Michael Aye
+michaelaye:
+  name: K.-Michael Aye
   membership: admin
   pic: aye.jpg
   position: Planetary Scientist
@@ -122,7 +122,7 @@ fcantini:
   membership: contributor
   pic:
   position:
-  twitter: 
+  twitter:
   github: fcantini-epfl
   slack: federico.cantini
   web:
