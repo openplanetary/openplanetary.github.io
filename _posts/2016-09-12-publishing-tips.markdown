@@ -13,7 +13,7 @@ Best practice and advices making openly available scholarly publications and dat
 
 ## Preprints services / publication repositories
 
-The use of preprints servers should be OK with **most** Planetary Science-related journals. More general info are e.g. on [wikipedia](https://en.wikipedia.org/wiki/List_of_academic_journals_by_preprint_policy)
+The use of preprints servers should be OK with **most** Planetary Science-related journals. More general infos are e.g. on [wikipedia](https://en.wikipedia.org/wiki/List_of_academic_journals_by_preprint_policy)
 
 ### Arxiv
 
@@ -35,7 +35,7 @@ _Authors can share their preprint anywhere at any time. If accepted for publicat
 
 ### Journal of Geophysical Research (Planets)
 
-excerpt from from [AGU publication policy](http://publications.agu.org/author-resource-center/publication-policies/dual-publication-policy/)
+excerpt from [AGU publication policy](http://publications.agu.org/author-resource-center/publication-policies/dual-publication-policy/)
 
 _AGU does allow posting of preprints and accepted papers in not-for-profit preprint servers that are designed to facilitate community engagement and discovery across the sciences_
 
