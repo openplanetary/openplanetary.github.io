@@ -51,6 +51,7 @@ Now, I am brooding over this point for several years already, and I am sharing t
 Just recently we were discussing to create another module for general PDS tools, as there are several activities, like parsing the labels to get the column names for a cumulative index files for PDS data, reading that file and transforming it into a modern data table like a _pandas_ Dataframe... this most likely is being done over and over again by other PDS users.
 
 Additionally, even before PlanetaryPy was a thing, I implemented a web-scraper for planetary body constants and put them into a module called **planetpy** [here](https://github.com/michaelaye/planetpy) (plus a few more tools).
+And there's several space instrument data readers I finally should publish, and those GIS related image analysis tools... _waaah_ ;)
 
 On the last day at the conference, I had a brilliant 90 minute chat with Erik and while, at first, we just leisurely talked about how nice it would be to have a planetarypy package, he understood (I think) that I (and others) are quite serious about this, and he motivated me with some ideas on how to proceed.
 
