@@ -3,7 +3,7 @@ layout:        post
 title:         "AAS Divison of Planetary Science Conference"
 subtitle:      "Announcing the start of a consolidated planetary science Python package."
 author:       michaelaye
-header-img:    "img/post-bg-05.jpg"
+header-img:    "img/posts-bg/post-bg-05.jpg"
 category:      Community
 tags:          [Python, SPICE, Story telling]
 slack_channel: planetarypy

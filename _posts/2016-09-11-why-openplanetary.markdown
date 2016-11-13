@@ -42,7 +42,7 @@ We believe that sharing data, tools and overall knowledge, rather than keeping t
 
 Of course the above statements are rather top level, some easily implemented, some less. The way OpenPlanetary took shape is to start very close to data, data producers and users. We gathered and started exchanging ideas piggy-back on 2 workshops, the [2015 ESAC GIS Workshop](https://issues.cosmos.esa.int/psawiki/display/GISWS/ESAC+Planetary+GIS+Workshop+2015+Wiki) and the [USGS Planetary Data Workshop](http://astrogeology.usgs.gov/groups/Planetary-Data-Workshop).
 
-![2015 ESAC GIS Workshop](/img/post-esacgis2015.jpg "2015 ESAC GIS Workshop")
+![2015 ESAC GIS Workshop](/img/aprossi/esacgis2015.jpg "2015 ESAC GIS Workshop")
 
 ## What can you get from OpenPlanetary?
 
