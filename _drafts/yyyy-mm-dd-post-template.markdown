@@ -2,7 +2,7 @@
 layout:        post
 title:         "The title of your post"
 subtitle:      "The subtitle of your post"
-authors:       member_id
+author:        member_id
 header-img:    "img/post-bg-05.jpg"
 category:      Category1
 tags:          [tag1, tag2, tag3]
