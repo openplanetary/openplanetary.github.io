@@ -27,8 +27,8 @@ Currently 25 database are connected, covering all fields of Planetary Science,
 including surfaces, atmospheres, plasma, small bodies, exoplanets, etc, from a 
 distributed network of data providers in 4 different European countries and Japan.
 
-Some well attended services can be accessed this way, e.g., the Encyclopedia of 
-Exoplanets in Paris Observatory (~ 250,000 visits in 2016). Two other data 
+Some well attended services can be accessed this way, e.g., the [Encyclopedia of 
+Exoplanets](http://exoplanet.eu) in Paris Observatory (~ 250,000 visits in 2016). Two other data 
 services selected during the 2016 VESPA call are being connected and will be 
 available in the coming weeks (from Granada and Kharkiv). In addition, one 
 service from a network of amateur observers (RadioJove) has been installed. 
