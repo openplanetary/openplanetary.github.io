@@ -1,6 +1,6 @@
 ---
 layout:        post
-title:         "VESPA"
+title:         "EPN2020RI/VESPA"
 subtitle:      "Discover new planetary resources"
 authors:       BaptisteCecconi
 category:      Tools
@@ -25,24 +25,37 @@ Currently 25 database are connected, covering all fields of Planetary Science,
 including surfaces, atmospheres, plasma, small bodies, exoplanets, etc, from a 
 distributed network of data providers in 4 different European countries and Japan.
 
-Some well attended services can be accessed this way, e.g. the Encyclopedia of 
+Some well attended services can be accessed this way, e.g., the Encyclopedia of 
 Exoplanets in Paris Observatory (~ 250,000 visits in 2016). Two other data 
 services selected during the 2016 VESPA call are being connected and will be 
 available in the coming weeks (from Granada and Kharkiv). In addition, one 
 service from a network of amateur observers (RadioJove) has been installed. 
 
 The number of data services available will rapidly grow in the coming year, as 
-the VESPA Data Access Protocol (EPN-TAP v. 2) has been adopted by ESA to provide 
+the VESPA Data Access Protocol (EPN-TAP v.2) has been adopted by ESA to provide 
 access to its Planetary Science Archive, and is being studied by NASA and other 
 space agencies. This system is also open to contributions from research teams. 
 Teams which need support to implement their data service can apply to the 2017 
 VESPA call next December. Selected teams will be invited to a 4 days workshop 
 in Graz next March. 
 
-The SSHADE (https://blog.sshade.eu) activity is also proceeding towards a large 
+The [SSHADE](https://blog.sshade.eu) activity is also proceeding towards a large 
 public spectroscopy service. The database is being filled with laboratory 
 measurements, and will be connected to the VESPA search interface later this 
 year after validation.
 
 Alternative access to VESPA-compliant data services is possible from VO tools 
-such as 3Dview and CASSIS, and a java library is available for developers.
+such as [3Dview](http://3dview.cdpp.eu) and [CASSIS](http://cassis.irap.omp.eu), 
+and an [EpnTAPClient java library](https://gitlab.irap.omp.eu/OV-GSO-DC/EpnTAPClient/tree/master) is available for developers.
+
+#### More info
+
++ [VESPA web page](http://www.europlanet-vespa.eu)
+
++ [VESPA Discussions Boards](http://discussions.europlanet-vespa.eu)
+
++ [VESPA main query portal](http://vespa.obspm.fr)
+
+#### Credits
+
+> VESPA is a workpackage of the Europlanet 2020 Research Infrastructure project. It has received funding from the European Union's Horizon 2020 research and innovation programme under grant agreement No 654208. 
