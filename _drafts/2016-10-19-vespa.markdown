@@ -1,12 +1,14 @@
 ---
 layout:        post
-title:         "EPN2020RI/VESPA"
+title:         "Europlanet VESPA"
 subtitle:      "Discover new planetary resources"
 authors:       BaptisteCecconi
 category:      Tools
 tags:          [VESPA, data, tools]
 slack_channel: europlanet-vespa
 ---
+
+## VESPA 
 
 [VESPA](http://www.europlanet-vespa.eu) (Virtual European Solar and Planetary 
 Access) is proposing a unified interface to search for solar system data 
@@ -48,7 +50,7 @@ Alternative access to VESPA-compliant data services is possible from VO tools
 such as [3Dview](http://3dview.cdpp.eu) and [CASSIS](http://cassis.irap.omp.eu), 
 and an [EpnTAPClient java library](https://gitlab.irap.omp.eu/OV-GSO-DC/EpnTAPClient/tree/master) is available for developers.
 
-#### More info
+## More info
 
 + [VESPA web page](http://www.europlanet-vespa.eu)
 
@@ -56,6 +58,6 @@ and an [EpnTAPClient java library](https://gitlab.irap.omp.eu/OV-GSO-DC/EpnTAPCl
 
 + [VESPA main query portal](http://vespa.obspm.fr)
 
-#### Credits
+## Credits
 
 > VESPA is a workpackage of the Europlanet 2020 Research Infrastructure project. It has received funding from the European Union's Horizon 2020 research and innovation programme under grant agreement No 654208. 

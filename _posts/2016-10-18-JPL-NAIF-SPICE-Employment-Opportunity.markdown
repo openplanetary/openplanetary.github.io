@@ -2,7 +2,7 @@
 layout:        post
 title:         "Employment Opportunity with NASA/NAIF October 2016"
 subtitle:      "Join the NAIF/SPICE team"
-authors:       BaptisteCecconi
+author:        BaptisteCecconi
 category:      Community
 tags:          [PDS, SPICE, Jobs]
 slack_channel: general
