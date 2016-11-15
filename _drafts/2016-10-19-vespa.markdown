@@ -2,7 +2,7 @@
 layout:        post
 title:         "Europlanet VESPA"
 subtitle:      "Discover new planetary resources"
-authors:       BaptisteCecconi
+author:        bcecconi
 category:      Tools
 tags:          [VESPA, data, tools]
 slack_channel: europlanet-vespa
@@ -49,6 +49,10 @@ year after validation.
 Alternative access to VESPA-compliant data services is possible from VO tools 
 such as [3Dview](http://3dview.cdpp.eu) and [CASSIS](http://cassis.irap.omp.eu), 
 and an [EpnTAPClient java library](https://gitlab.irap.omp.eu/OV-GSO-DC/EpnTAPClient/tree/master) is available for developers.
+
+__The VESPA coordination team__
+
+Stéphane Erard, Angelo Pio Rossi, Baptiste Cecconi, Maria Teresa Capria
 
 ## More info
 
