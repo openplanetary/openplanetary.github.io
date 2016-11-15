@@ -1,6 +1,6 @@
 ---
 layout:        post
-title:         "New search interface for VESPA"
+title:         "VESPA"
 subtitle:      "Discover new planetary resources"
 authors:       BaptisteCecconi
 category:      Tools
@@ -8,12 +8,18 @@ tags:          [VESPA, data, tools]
 slack_channel: europlanet-vespa
 ---
 
-The VESPA new search interface is now public (http://vespa.obspm.fr)
+[VESPA](http://www.europlanet-vespa.eu) (Virtual European Solar and Planetary 
+Access) is proposing a unified interface to search for solar system data 
+resources. It is using the Virtual Observatory (VO) infrastructure developed by 
+the astronomical VO: the International Virtual Observatory Alliance 
+([IVOA](http://ivoa.net)). VESPA is proposing a consistent and comprehensive 
+set of methods to distribute and search for data resources. 
 
-It provides direct access to all connected databases and the possibility to 
-retrieve data files based on location, time, observing conditions, viewing 
-geometry, etc. It also allows the user to easily examine and possibly analyze 
-most data on-line with Virtual Observatory tools.
+A new version of the [main VESPA query portal](http://vespa.obspm.fr) has 
+recently been released. It provides direct access to all connected databases 
+and the possibility to retrieve data files based on location, time, observing 
+conditions, viewing geometry, etc. It also allows the user to easily examine 
+and possibly analyze most data on-line with Virtual Observatory tools.
 
 Currently 25 database are connected, covering all fields of Planetary Science, 
 including surfaces, atmospheres, plasma, small bodies, exoplanets, etc, from a 
