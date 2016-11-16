@@ -1,6 +1,6 @@
 ---
 layout:        post
-title:         "Europlanet VESPA"
+title:         "EuroPlanet VESPA"
 subtitle:      "Discover new planetary resources"
 author:        bcecconi
 category:      Tools
