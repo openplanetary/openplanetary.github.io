@@ -11,7 +11,7 @@ slack_channel: europlanet-vespa
 ## VESPA 
 
 [VESPA](http://www.europlanet-vespa.eu) (Virtual European Solar and Planetary 
-Access) is proposing a unified interface to search for solar system data 
+Access) is proposing a unified interface to search for Solar System data 
 resources. It is using the Virtual Observatory (VO) infrastructure developed by 
 the astronomical VO: the International Virtual Observatory Alliance 
 ([IVOA](http://ivoa.net)). VESPA is proposing a consistent and comprehensive 
