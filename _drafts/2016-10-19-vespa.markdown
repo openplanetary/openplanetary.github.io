@@ -16,6 +16,8 @@ ways to handle the data, not only to perform massive processing, but also more
 basically to access them easily and efficiently. Planetary science will be 
 facing big data challenges and opportunities in these years.
 
+## VESPA: What is this?
+
 Virtual Observatory (VO) techniques developed in Astronomy during the past 
 15 years can be adapted to address this problem, provided they are extended to 
 include specificities of Solar System studies such as coordinate systems, 
@@ -24,8 +26,6 @@ target-related time scales, or measured quantities.
 An effort to adapt VO techniques to Solar System studies has been started in 
 the frame of the Europlanet program, first in FP7 (2009-2012) as a demonstrator, 
 and now in Horizon2020 (2015-2019) in a more extensive way.
-
-## VESPA: What is this?
 
 In the current program Europlanet 2020, the 
 [VESPA](http://www.europlanet-vespa.eu) (Virtual European Solar and Planetary 
