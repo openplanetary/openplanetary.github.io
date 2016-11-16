@@ -8,7 +8,6 @@ tags:          [VESPA, data, tools]
 slack_channel: europlanet-vespa
 ---
 
-## VESPA 
 ## VESPA: Why would you care?
 
 Modern ground based and space borne instruments produce huge datasets, 
@@ -18,7 +17,7 @@ basically to access them easily and efficiently. Planetary science will be
 facing big data challenges and opportunities in these years.
 
 Virtual Observatory (VO) techniques developed in Astronomy during the past 
-15 years can be adapted to address this problem, provided they are enlarged to 
+15 years can be adapted to address this problem, provided they are extended to 
 include specificities of Solar System studies such as coordinate systems, 
 target-related time scales, or measured quantities.
 
@@ -30,19 +29,16 @@ and now in Horizon2020 (2015-2019) in a more extensive way.
 
 In the current program Europlanet 2020, the 
 [VESPA](http://www.europlanet-vespa.eu) (Virtual European Solar and Planetary 
-Access) is proposing a unified interface to search for solar system data 
-resources. It is using the Virtual Observatory (VO) infrastructure developed by 
-the astronomical VO: the International Virtual Observatory Alliance 
-([IVOA](http://ivoa.net)). VESPA is proposing a consistent and comprehensive 
-set of methods to distribute and search for data resources. 
-Access) activity deals with the infrastructure 
-and implementation new data services. VESPA supports all aspects of Solar System 
-science. Its developments are essentially based on the standards of the 
+Access) activity deals with the infrastructure and implementation new data 
+services. VESPA supports all aspects of Solar System science. Its developments 
+are building upon the standards of the 
 [IVOA](http://ivoa.net) (International Virtual Observatory Alliance).
 
 VESPA is proposing a consistent and comprehensive set of methods to 
 distribute and search for data ressources. One of the main added value is its
 unified interface to search for solar system data resources.
+
+## VESPA: discovering and sharing
 
 A new version of the [main VESPA query portal](http://vespa.obspm.fr) has 
 recently been released. It provides direct access to all connected databases 
@@ -50,17 +46,15 @@ and the possibility to retrieve data files based on location, time, observing
 conditions, viewing geometry, etc. It also allows the user to easily examine 
 and possibly analyze most data on-line with Virtual Observatory tools.
 
-## VESPA: discovering and sharing
-
 Currently 25 database are connected, covering all fields of Planetary Science, 
 including surfaces, atmospheres, plasma, small bodies, exoplanets, etc, from a 
 distributed network of data providers in 4 different European countries and Japan.
 
 Some well attended services can be accessed this way, e.g., the [Encyclopedia of 
-Exoplanets](http://exoplanet.eu) in Paris Observatory (~ 250,000 visits in 2016). Two other data 
-services selected during the 2016 VESPA call are being connected and will be 
-available in the coming weeks (from Granada and Kharkiv). In addition, one 
-service from a network of amateur observers (RadioJove) has been installed. 
+Exoplanets](http://exoplanet.eu) in Paris Observatory (~ 250,000 visits in 2016). 
+Two other data services selected during the 2016 VESPA call are being connected 
+and will be available in the coming weeks (from Granada and Kharkiv). In addition, 
+one service from a network of amateur observers (RadioJove) has been installed. 
 
 The number of data services available will rapidly grow in the coming year, as 
 the VESPA Data Access Protocol (EPN-TAP v.2) has been adopted by ESA to provide 
