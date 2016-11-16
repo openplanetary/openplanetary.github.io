@@ -46,6 +46,8 @@ and the possibility to retrieve data files based on location, time, observing
 conditions, viewing geometry, etc. It also allows the user to easily examine 
 and possibly analyze most data on-line with Virtual Observatory tools.
 
+![VESPA query portal](/img/bcecconi/vespa-query-portal.png "VESPA main query portal (http://vespa.obspm.fr)")
+
 Currently 25 database are connected, covering all fields of Planetary Science, 
 including surfaces, atmospheres, plasma, small bodies, exoplanets, etc, from a 
 distributed network of data providers in 4 different European countries and Japan.
@@ -71,13 +73,14 @@ year after validation.
 
 Alternative access to VESPA-compliant data services is possible from VO tools 
 such as [3Dview](http://3dview.cdpp.eu) and [CASSIS](http://cassis.irap.omp.eu), 
-and an [EpnTAPClient java library](https://gitlab.irap.omp.eu/OV-GSO-DC/EpnTAPClient/tree/master) is available for developers.
+and an [EpnTAPClient java library](https://gitlab.irap.omp.eu/OV-GSO-DC/EpnTAPClient/tree/master) 
+is available for developers.
 
 __The VESPA coordination team__
 
 Stéphane Erard, Angelo Pio Rossi, Baptiste Cecconi, Maria Teresa Capria
 
-## More info
+## More info on VESPA
 
 + [VESPA web page](http://www.europlanet-vespa.eu)
 
