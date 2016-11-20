@@ -14,7 +14,7 @@ MarsSI
 
 Version 5.1 - Sept 2016
 
-by Loïc Lozac'h 
+by LoÃ¯c Lozac'h 
 <https://emars.univ-lyon1.fr/>
 
 ![MarsSI Application](/img/LoBZH22/marssi-logo.png "MarsSI (https://emars.univ-lyon1.fr)")
@@ -38,7 +38,9 @@ How to use MarsSI?
 MarsSI's interface is built on [Geomajas](http://www.geomajas.org/), an open source web GIS 
 application framework. It shows MOLA or THEMIS global maps of Mars and ground footprints of 
 martian missions remote-sensing instruments.
+
 ![MarsSI screenshot](/img/LoBZH22/marssi-screenshots.png "MarsSI (https://emars.univ-lyon1.fr)")
+
 In order to obtain a map-projected raster file, user only needs to select and add 
 footprints into his cart and launch the dedicated process with just one button. Processed
 data can be accessed via ftp.
@@ -55,22 +57,16 @@ with several software like USGS ISIS3, ENVI IDL, AMES Stereo Pipeline...
 
 ###Mission , instruments and highest level of processing###
 * __Mars Reconnaisance Orbiter (MRO)__
-	* CTX
-	Map-projected calibrated raster and Stereo-restitute DTM
-	* HiRISE
-	Map-projected calibrated raster and Stereo-restitute DTM
-	* CRISM
-	Map-projected calibrated raster with spectral parameters
+	* CTX: Map-projected calibrated raster and Stereo-restitute DTM
+	* HiRISE: Map-projected calibrated raster and Stereo-restitute DTM
+	* CRISM: Map-projected calibrated raster with spectral parameters
 
 * __Mars Explorer (MEX)__
-	* HRSC
-	Map-projected calibrated raster and Stereo-restitute DTM created by HRSC team
-	* OMEGA
-	Raw data
-	
+	* HRSC: Map-projected calibrated raster and Stereo-restitute DTM created by HRSC team
+	* OMEGA: Raw data
+
 * __Mars Odyssey (ODY)__
-	*THEMIS
-	Raw data
+	*THEMIS: Raw data
 
 	
 Credits
