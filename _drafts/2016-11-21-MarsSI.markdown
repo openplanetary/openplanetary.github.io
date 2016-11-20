@@ -17,7 +17,7 @@ Version 5.1 - Sept 2016
 by Loïc Lozac'h 
 <https://emars.univ-lyon1.fr/>
 
-![MarsSI Application](/img/LoBZH22/marssi-logo.png "MarsSI (https://emars.univ-lyon1.fr)")
+![MarsSI Application](/img/marssi-logo.png "MarsSI (https://emars.univ-lyon1.fr)")
 
 What is MarsSI?
 ---------------
@@ -39,7 +39,7 @@ MarsSI's interface is built on [Geomajas](http://www.geomajas.org/), an open sou
 application framework. It shows MOLA or THEMIS global maps of Mars and ground footprints of 
 martian missions remote-sensing instruments.
 
-![MarsSI screenshot](/img/LoBZH22/marssi-screenshots.png "MarsSI (https://emars.univ-lyon1.fr)")
+![MarsSI screenshot](/img/marssi-screenshots.png "MarsSI (https://emars.univ-lyon1.fr)")
 
 In order to obtain a map-projected raster file, user only needs to select and add 
 footprints into his cart and launch the dedicated process with just one button. Processed
