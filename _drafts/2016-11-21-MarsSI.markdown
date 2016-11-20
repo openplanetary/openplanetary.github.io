@@ -66,7 +66,7 @@ with several software like USGS ISIS3, ENVI IDL, AMES Stereo Pipeline...
 	* OMEGA: Raw data
 
 * __Mars Odyssey (ODY)__
-	*THEMIS: Raw data
+	* THEMIS: Raw data
 
 	
 Credits
