@@ -1,0 +1,85 @@
+---
+layout:        post
+title:         "MarsSI: the e-Mars Team web application project"
+subtitle:      "a Martian surface data processing Information System"
+authors:       LoBZH22
+header-img:    "img/post-bg-05.jpg"
+category:      Tools
+tags:          [Interactive Maps, data, mars, mro, ctx, hirise, crism, mex, omega, hrsc, ody, themis, image processing, stereo restitution, dtm]
+slack_channel: channel1
+---
+
+MarsSI
+======
+
+Version 5.1 - Sept 2016
+
+by Loïc Lozac'h 
+<https://emars.univ-lyon1.fr/>
+
+![MarsSI Application](/img/LoBZH22/marssi-logo.png "MarsSI (https://emars.univ-lyon1.fr)")
+
+What is MarsSI?
+---------------
+
+MarsSI (Acronym of MARS Information System) is a web Geographic Information System 
+application which allows the managing and processing of Martian orbital data. 
+
+From this application, the users is able to easily and rapidly select observations, 
+to process raw data via proposed automatic pipelines and to get back final 
+products which can be visualized under GIS application like ARCGIS and QGIS. 
+Moreover MarsSI also proposes an automatic stereo-restitution pipeline in order 
+to produce Digital Terrain Models (DTM). 
+
+
+How to use MarsSI?
+------------------
+
+MarsSI's interface is built on [Geomajas](http://www.geomajas.org/), an open source web GIS 
+application framework. It shows MOLA or THEMIS global maps of Mars and ground footprints of 
+martian missions remote-sensing instruments.
+![MarsSI screenshot](/img/LoBZH22/marssi-screenshots.png "MarsSI (https://emars.univ-lyon1.fr)")
+In order to obtain a map-projected raster file, user only needs to select and add 
+footprints into his cart and launch the dedicated process with just one button. Processed
+data can be accessed via ftp.
+
+Documentation and video tutorial are available at [this adress](http://emars.univ-lyon1.fr/ContactUs/About.jsp)
+
+
+Which data is available in MarsSI?
+----------------------------------
+
+Data available in MarsSI comes from the last 3 orbiters around Mars. 
+Data is downloaded from the [NASA Planetary Data Server](https://pds.nasa.gov/) and processed 
+with several software like USGS ISIS3, ENVI IDL, AMES Stereo Pipeline...
+
+###Mission , instruments and highest level of processing###
+* __Mars Reconnaisance Orbiter (MRO)__
+	* CTX
+	Map-projected calibrated raster and Stereo-restitute DTM
+	* HiRISE
+	Map-projected calibrated raster and Stereo-restitute DTM
+	* CRISM
+	Map-projected calibrated raster with spectral parameters
+
+* __Mars Explorer (MEX)__
+	* HRSC
+	Map-projected calibrated raster and Stereo-restitute DTM created by HRSC team
+	* OMEGA
+	Raw data
+	
+* __Mars Odyssey (ODY)__
+	*THEMIS
+	Raw data
+
+	
+Credits
+-------
+
+>This application is part of the ERC project e-Mars founding from the 
+>European Union's Seventh Framework Program (FP7/2007-2013) (ERC Grant Agreement No. 280168). 
+>By using MarsSI, you agree to acknowledge the use of this application 
+>while publishing results. The acknowledgement sentence has to be as follow: 
+>"Data have been processed with the MarsSI (emars.univ-lyon1.fr) application 
+>founded by the European Union's Seventh Framework Program (FP7/2007-2013) 
+>(ERC Grant Agreement No. 280168)". 
