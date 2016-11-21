@@ -149,7 +149,26 @@ pgiommi:
   membership: contributor
   pic:
   position: ASI Senior Scientist
-  twitter: 
-  github: 
-  slack: 
+  twitter:
+  github:
+  slack:
   web: http://www.asdc.asi.it/pg.html
+llozach:
+  name: Loïc Lozac'h
+  membership: contributor
+  pic:
+  position:
+  twitter:
+  github:
+  slack:
+  web:
+ramiromf:
+  name: Ramiro Marco Figuera
+  membership: contributor
+  pic:
+  position: Planetary Scientist
+  twitter:
+  github:
+  slack:
+  web:
+
