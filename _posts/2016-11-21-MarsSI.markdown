@@ -64,10 +64,10 @@ with several software like [USGS ISIS3](https://isis.astrogeology.usgs.gov/), [E
 
 * __Mars Explorer (MEX)__
 	* HRSC: Map-projected calibrated raster and Stereo-restitute DTM created by HRSC team
-	* OMEGA: Raw data
+	* OMEGA: PDS Raw data
 
 * __Mars Odyssey (ODY)__
-	* THEMIS: Raw data
+	* THEMIS: PDS Raw data
 
 Stereo-restitution
 ------------------
