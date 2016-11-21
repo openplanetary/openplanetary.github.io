@@ -2,7 +2,7 @@
 layout:        post
 title:         "MarsSI: the e-Mars Team web application project"
 subtitle:      "a Martian surface data processing Information System"
-authors:       LoBZH22
+author:       llozach
 header-img:    "img/post-bg-05.jpg"
 category:      Tools
 tags:          [Interactive Maps, data, mars, mro, ctx, hirise, crism, mex, omega, hrsc, ody, themis, image processing, stereo restitution, dtm]
