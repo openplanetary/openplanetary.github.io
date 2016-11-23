@@ -19,12 +19,16 @@ The technology that allows PlanetServer-2 to analyze data online is [rasdaman](h
 
 # First steps in PlanetServer-2
 The first thing the users will see when they open the web client will be a Martian globe containing a set of polygons representing CRISM footprints. You can zoom in, zoom out, spin and tilt the globe using your mouse.
+
 ## ... the data
 PlanetServer-2 provides access to two different hyperspectral datasets: Compact Reconnaissance Imaging Spectrometer for Mars (CRISM) and Moon Mineralogy Mapper (M3).
+
 ### CRISM
 The Martian dataset is formed by more than 9TB of data (+20k images) containing Target Reduced Data Record (TRDR) CRISM images. CRISM images  have two different spectral range: the short wave ranging from 0.3 to 1 microns and the long wave ranging from 1 to 4 microns. All the images have been preprocessed using CAT on ENVI in order to apply map projection and atmospheric correction.
+
 ### M3
 The Lunar dataset is formed by around 3TB of data containing (M3) images. The images have been preprocessed using ISIS and GDAL in order to apply atmospheric correction and map projection. The spectral range of the M3 dataset is from 0.430 to 3 microns.
+
 ### DTMs
 PlanetServer-2 gives the opportunity to display a DTM by tilting the globe when the user is in 3D mode. The following videos show how the DTMs look in Mars and the Moon.
 
