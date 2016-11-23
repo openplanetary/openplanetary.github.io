@@ -3,7 +3,7 @@ layout:      post
 title:       "PlanetServer-2, a web GIS for hyperspectral data visualization and analysis"
 subtitle:    "The first entry of a series of posts about PlanetServer-2"
 description: "PlanetServer-2 is the first web GIS using WCPS OGC standard queries to analyze hyperspectral data"
-author:      RamiroMF
+author:      ramiromf
 category:    Science
 tags:        [Mars, GIS, CRISM, Moon, M3, OGC, WCPS]
 header-img:  img/ramiromf/header.png
