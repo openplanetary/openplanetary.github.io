@@ -45,3 +45,7 @@ The level of services delivered by the current generation of space science data 
 “Open Universe” will implement a method of measuring the transparency of the products available from space science data archives, and urge the data producers to increase their efforts so as to extend the usability of space science data to the non-professional community. The extra cost of reaching the level of adequate transparency (“web-ready” data products) is a very small fraction (less than 1%) of the funding level necessary to produce and archive space science data. The benefits of such a cultural step are potentially enormous.
 
 The first public event within the “Open Universe” Initiative is a workshop to be held on 10-12 April 2017 at the ASI HQ in Rome, co-organized by the Italian Space Agency (ASI) and the United Nations Office of Outer Space Affairs ([UNOOSA](http://www.unoosa.org/)), to bring together the various components of the community potentially interested in space science data.  
+
+Further information available here:
++ [Open Universe presentation] (http://www.unoosa.org/documents/pdf/copuos/2016/copuos2016tech10E.pdf)
++ [Open Universe initiative document] (http://www.unoosa.org/res/oosadoc/data/documents/2016/aac_1052016crp/aac_1052016crp_6_0_html/AC105_2016_CRP06E.pdf)
