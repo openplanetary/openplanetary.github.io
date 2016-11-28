@@ -44,3 +44,5 @@ Further information available here:
 
 * [Open Universe presentation](http://www.unoosa.org/documents/pdf/copuos/2016/copuos2016tech10E.pdf)
 * [Open Universe initiative document](http://www.unoosa.org/res/oosadoc/data/documents/2016/aac_1052016crp/aac_1052016crp_6_0_html/AC105_2016_CRP06E.pdf)
+
+Paolo Giommi and Angelo Zinzi
