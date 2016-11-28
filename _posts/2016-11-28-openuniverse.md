@@ -2,7 +2,7 @@
 layout:     post
 title:      "The Open Universe initiative"
 subtitle:   ""
-author:     pgiommi
+author:     paologiommi
 header-img:
 category: Community
 tags: [OpenUniverse, UN, COPUOS, UNOOSA, citizen science]
