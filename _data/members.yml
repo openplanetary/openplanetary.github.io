@@ -97,8 +97,8 @@ azinzi:
   twitter:
   github: angelozinzi
   slack: azinzi
-  web:
-  email:
+  web: http://solarsystem.asdc.asi.it/
+  email: angelo.zinzi@asdc.asi.it
 mdamore:
   name: Mario D'Amore
   membership: contributor
