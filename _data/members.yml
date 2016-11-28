@@ -153,6 +153,12 @@ llozach:
   github: LoBZH22
   slack:
   web: https://emars.univ-lyon1.fr
+pgiommi:
+  name: Paolo Giommi
+  membership: contributor
+  pic:
+  position: ASI Senior Scientist
+  web: http://www.asdc.asi.it/pg.html
 ramiromf:
   name: Ramiro Marco Figuera
   membership: contributor
@@ -162,9 +168,3 @@ ramiromf:
   github: ramiromf
   slack: ramiromf
   web: http://ramiromf.github.io/
-pgiommi:
-  name: Paolo Giommi
-  membership: contributor
-  pic:
-  position: ASI Senior Scientist
-  web: http://www.asdc.asi.it/pg.html
