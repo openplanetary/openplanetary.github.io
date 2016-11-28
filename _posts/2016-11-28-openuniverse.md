@@ -18,7 +18,7 @@ We are indeed at a critical juncture in the history of humankind, since computin
 
 ![alt text][Figure 1]
 
-[Figure 1](/img/OpenUniverse/mkn421.jpgg "Figure 1")
+[Figure 1](/img/pgiommi/mkn421.jpg "Figure 1")
 
 ##### Fig. 1: Active galaxy MKN 421 analyzed by means of a single instrument (left) operating in the optical band and by joining all the data acquired over the entire electromagnetic spectrum and over the years (right). The amount of information is undoubtedly much greater and richer in the second case.*
 
@@ -36,7 +36,8 @@ By accomplishing these tasks space science data will gradually become more “tr
 
 ![alt text][Figure 2]
 
-[Figure 2]: https://github.com/openplanetary/openplanetary.github.io/blob/master/img/OpenUniverse/newsletOct2016_openspace.png "Figure 2"
+[Figure 2](/img/pgiommi/newsletOct2016_openspace.png "Figure 2")
+
 
 #####Fig. 2: The development of space data archives and the amount of people to which knowledge is available. In the future the entire world population could easily access to data.*
 
