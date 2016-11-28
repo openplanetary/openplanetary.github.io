@@ -18,7 +18,7 @@ We are indeed at a critical juncture in the history of humankind, since computin
 
 ![alt text][Figure 1]
 
-[Figure 1]: <img src="https://raw.githubusercontent.com/openplanetary/openplanetary.github.io/master/img/OpenUniverse/mkn421.jpg" width="300"> "Figure 1"
+[Figure 1](/img/OpenUniverse/mkn421.jpgg "Figure 1")
 
 ##### Fig. 1: Active galaxy MKN 421 analyzed by means of a single instrument (left) operating in the optical band and by joining all the data acquired over the entire electromagnetic spectrum and over the years (right). The amount of information is undoubtedly much greater and richer in the second case.*
 
