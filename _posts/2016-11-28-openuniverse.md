@@ -10,8 +10,6 @@ slack_channel:
 image:
 ---
 
-## The Open Universe initiative
-
 Expanding the availability and the accessibility of space science data is becoming a priority that is increasingly stressed by several organizations and is fully recognized by the United Nations. Among the tools required by the 2030 Agenda for Sustainable Development the ones offered by space science and related technology could act as both enablers and catalysts for the efforts with regard to progressing towards internationally agreed development goals for sustainable development. In 2014 the Independent Expert Advisory Group (IEAG) on Data Revolution for Sustainable Development placed great emphasis on the urgency on designing user-centered and user-friendly interfaces.
 
 We are indeed at a critical juncture in the history of humankind, since computing power, data storage and interconnectivity have become nearly limitless resources potentially available to billions of people in the world at the same time through larger and smaller devices. Furthermore, the open source space science data are acquired through projects funded with public money, nurturing the idea that participation by the users’ community should be as wide as possible, albeit in the next few years further efforts will be necessary to consolidate, standardize and expand services, promoting a significant inspirational data-driven surge in training, education and discovery.
@@ -22,12 +20,13 @@ _Fig. 1: Active galaxy MKN 421 analyzed by means of a single instrument (left) o
 In this context “Open Universe” is a initiative [proposed by Italy] (http://www.asi.it/it/news/spazio-per-tutti-al-59deg-copuos) and approved by the United Nations Committee On the Peaceful Uses of Outer Space ([COPUOS](http://www.unoosa.org/oosa/en/ourwork/copuos/index.html)) in June 2016 at its [59th meeting](http://www.unoosa.org/oosa/en/ourwork/copuos/2016/index.html) in Vienna. The main objective of “Open Universe” is to stimulate a dramatic increase in the usability of space science data, extending the potential of scientific discovery to new participants in all parts of the world and empowering global educational services.
 
 These objectives will be pursued by means of several interrelated tasks, such as:
-+	Promoting the robust provision and permanent preservation of science-ready data
-+	Advancing calibration quality and statistical integrity
-+	Fostering the development of new centralized services to exploit the capabilities of the modern internet through new web-ready data
-+	Increasing web transparency to space science data
-+	Advocating the need for current and future projects to recognize the essential equality of hardware and software and incorporate centralized high-specification end-to-end analytics into cost envelopes
-+	Promoting active engagement of the Committee on the Peaceful Uses of Outer Space and other relevant national and international organizations towards tangible actions in the domain
+
+* Promoting the robust provision and permanent preservation of science-ready data
+* Advancing calibration quality and statistical integrity
+* Fostering the development of new centralized services to exploit the capabilities of the modern internet through new web-ready data
+* Increasing web transparency to space science data
+* Advocating the need for current and future projects to recognize the essential equality of hardware and software and incorporate centralized high-specification end-to-end analytics into cost envelopes
+* Promoting active engagement of the Committee on the Peaceful Uses of Outer Space and other relevant national and international organizations towards tangible actions in the domain
 
 By accomplishing these tasks space science data will gradually become more “transparent” to the citizens, that is openly available and usable by the widest possible community, from professional space scientists (several thousands of individuals) to citizen scientists (of the order of millions) to the common citizens generally interested in space science (potentially hundreds of millions).
 
