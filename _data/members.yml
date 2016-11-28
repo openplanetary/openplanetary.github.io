@@ -144,15 +144,6 @@ elakdawalla:
   github: elakdawalla
   slack: elakdawalla
   web: http://www.planetary.org
-pgiommi:
-  name: Paolo Giommi
-  membership: contributor
-  pic:
-  position: ASI Senior Scientist
-  twitter:
-  github:
-  slack:
-  web: http://www.asdc.asi.it/pg.html
 llozach:
   name: Loïc Lozac'h
   membership: contributor
@@ -171,4 +162,13 @@ ramiromf:
   github: ramiromf
   slack: ramiromf
   web: http://ramiromf.github.io/
+pgiommi:
+  name: Paolo Giommi
+  membership: contributor
+  pic:
+  position: ASI Senior Scientist
+  twitter:
+  github:
+  slack:
+  web: http://www.asdc.asi.it/pg.html
 
