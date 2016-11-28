@@ -10,7 +10,7 @@ slack_channel:
 image:
 ---
 
-##The Open Universe initiative
+## The Open Universe initiative
 
 Expanding the availability and the accessibility of space science data is becoming a priority that is increasingly stressed by several organizations and is fully recognized by the United Nations. Among the tools required by the 2030 Agenda for Sustainable Development the ones offered by space science and related technology could act as both enablers and catalysts for the efforts with regard to progressing towards internationally agreed development goals for sustainable development. In 2014 the Independent Expert Advisory Group (IEAG) on Data Revolution for Sustainable Development placed great emphasis on the urgency on designing user-centered and user-friendly interfaces.
 
@@ -18,9 +18,9 @@ We are indeed at a critical juncture in the history of humankind, since computin
 
 ![alt text][Figure 1]
 
-[Figure 1]: https://github.com/openplanetary/openplanetary.github.io/blob/master/img/OpenUniverse/mkn421.jpg "Figure 1"
+[Figure 1]: <img src="https://raw.githubusercontent.com/openplanetary/openplanetary.github.io/master/img/OpenUniverse/mkn421.jpg" width="300"> "Figure 1"
 
-#####Fig. 1: Active galaxy MKN 421 analyzed by means of a single instrument (left) operating in the optical band and by joining all the data acquired over the entire electromagnetic spectrum and over the years (right). The amount of information is undoubtedly much greater and richer in the second case.*
+##### Fig. 1: Active galaxy MKN 421 analyzed by means of a single instrument (left) operating in the optical band and by joining all the data acquired over the entire electromagnetic spectrum and over the years (right). The amount of information is undoubtedly much greater and richer in the second case.*
 
 In this context “Open Universe” is a initiative [proposed by Italy] (http://www.asi.it/it/news/spazio-per-tutti-al-59deg-copuos) and approved by the United Nations Committee On the Peaceful Uses of Outer Space ([COPUOS](http://www.unoosa.org/oosa/en/ourwork/copuos/index.html)) in June 2016 at its [59th meeting](http://www.unoosa.org/oosa/en/ourwork/copuos/2016/index.html) in Vienna. The main objective of “Open Universe” is to stimulate a dramatic increase in the usability of space science data, extending the potential of scientific discovery to new participants in all parts of the world and empowering global educational services.
 
