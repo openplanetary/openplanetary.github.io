@@ -41,5 +41,6 @@ The level of services delivered by the current generation of space science data 
 The first public event within the “Open Universe” Initiative is a workshop to be held on 10-12 April 2017 at the ASI HQ in Rome, co-organized by the Italian Space Agency (ASI) and the United Nations Office of Outer Space Affairs ([UNOOSA](http://www.unoosa.org/)), to bring together the various components of the community potentially interested in space science data.  
 
 Further information available here:
+
 * [Open Universe presentation](http://www.unoosa.org/documents/pdf/copuos/2016/copuos2016tech10E.pdf)
 * [Open Universe initiative document](http://www.unoosa.org/res/oosadoc/data/documents/2016/aac_1052016crp/aac_1052016crp_6_0_html/AC105_2016_CRP06E.pdf)
