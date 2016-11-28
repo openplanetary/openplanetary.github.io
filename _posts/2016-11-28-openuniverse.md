@@ -16,10 +16,7 @@ Expanding the availability and the accessibility of space science data is becomi
 
 We are indeed at a critical juncture in the history of humankind, since computing power, data storage and interconnectivity have become nearly limitless resources potentially available to billions of people in the world at the same time through larger and smaller devices. Furthermore, the open source space science data are acquired through projects funded with public money, nurturing the idea that participation by the users’ community should be as wide as possible, albeit in the next few years further efforts will be necessary to consolidate, standardize and expand services, promoting a significant inspirational data-driven surge in training, education and discovery.
 
-![alt text][Figure 1]
-
-[Figure 1](/img/pgiommi/mkn421.jpg "Figure 1")
-
+<img src="https://raw.githubusercontent.com/openplanetary/openplanetary.github.io/master/img/pgiommi/mkn421.jpg" width="300">
 ##### Fig. 1: Active galaxy MKN 421 analyzed by means of a single instrument (left) operating in the optical band and by joining all the data acquired over the entire electromagnetic spectrum and over the years (right). The amount of information is undoubtedly much greater and richer in the second case.*
 
 In this context “Open Universe” is a initiative [proposed by Italy] (http://www.asi.it/it/news/spazio-per-tutti-al-59deg-copuos) and approved by the United Nations Committee On the Peaceful Uses of Outer Space ([COPUOS](http://www.unoosa.org/oosa/en/ourwork/copuos/index.html)) in June 2016 at its [59th meeting](http://www.unoosa.org/oosa/en/ourwork/copuos/2016/index.html) in Vienna. The main objective of “Open Universe” is to stimulate a dramatic increase in the usability of space science data, extending the potential of scientific discovery to new participants in all parts of the world and empowering global educational services.
