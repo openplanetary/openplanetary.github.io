@@ -17,7 +17,10 @@ image:
 Using both public and proprietary data, thanks to several collaborations, currently MATISSE allows access to dataset from 6 different targets (the Moon, Mercury, asteroids 4 Vesta and 21 Lutetia, comet 67P Churyumov-Gerasimenko and dwarf planet 1 Ceres) and, by means of a MySQL database, it is possible to perform queries based on temporal, geographical (latitude, longitude) and geometrical (incidence, emission and phase angles) metadata [Fig 1].
 Its modular structure also allows the tool to be extended to other datasets, and the possibility to connect to external repositories, using standards such as those of [Planetary Virtual Observatory](http://voparis-europlanet.obspm.fr/utilities/Erard_VOParis_PV2011_proceedings.pdf) and [NASA ODE REST API](http://nesf2014.arc.nasa.gov/sites/default/files/poster-pdfs/Bennett_Keith.pdf), is in its initial phase.
 
-At the present time NASA ODE REST API has been used to provide access to NASA Messenger MDIS-NAC observations of Mercury, which can be searched and accessed directly from MATISSE. In the next future a strong collaboration with the VESPA team (already started) will likely introduce new features, such as the possibility of querying open access datasets from ESA PSA or using features implemented in PlanetServer for Mars and Moon hyperspectral data.
+![alt text][Figure 1]
+[Figure 1]: https://github.com/openplanetary/openplanetary.github.io/blob/master/img/matisse/Fig1.png "Fig. 1: MATISSE homepage"
+
+At the present time NASA ODE REST API has been used to provide access to NASA Messenger MDIS-NAC observations of Mercury, which can be searched and accessed directly from MATISSE. In the next future a strong collaboration with the [VESPA](http://openplanetary.co/blog/tools/vespa.html) team (already started) will likely introduce new features, such as the possibility of querying open access datasets from ESA PSA or using features implemented in [PlanetServer](http://openplanetary.co/blog/science/PS2-introduction.html) for Mars and Moon hyperspectral data.
 
 In the next future the collaborations with scientific teams of Rosetta and Dawn will introduce new features, such as:
 +	Calculation of the aerodynamic coefficients for spherical and aspherical dust grains (useful for comparison with GIADA data)
@@ -25,9 +28,15 @@ In the next future the collaborations with scientific teams of Rosetta and Dawn 
 +	Retrieval of VIS/IR absorption bands and spectral indices
 +	Retrieval of content of specific minerals
 
+![alt text][Figure 2]
+[Figure 1]: https://github.com/openplanetary/openplanetary.github.io/blob/master/img/matisse/fig8.png "Fig. 2: Example of web visualization of data from comet 67P Churyumov-Gerasimenko"
+
 MATISSE generates higher-order outputs, such as false colors (RGB), ratios, mosaics and differences, computed on demand starting from the single observations available in the archive.
 
 All its outputs can be viewed directly on the web (in 3D and 2D) or downloaded for offline use with external software (i.e., 2D FITS, GeoTIFF and ENVI; 3D [Paraview](http://www.paraview.org/)).
+
+![alt text][Figure 3]
+[Figure 1]: https://github.com/openplanetary/openplanetary.github.io/blob/master/img/matisse/FIG12.png "Fig. 3: High resolution, offline visualization (Paraview) of a lunar crater, using Chinese Chang’e 1 data."
 
 To access the tool, go to [its homepage](http://tools.asdc.asi.it/matisse.jsp) and follow the instructions described in the [User Manual](http://tools.asdc.asi.it/download/MATISSEv1-2.pdf).
 
@@ -38,6 +47,6 @@ Here you can find the published paper on [Astronomy and Computing](http://www.sc
 Here a brief example of MATISSE usage follows. When the homepage of the tool is loaded select “4 Vesta” as target and “VIR IR” as instrument. Then fill the latitude and longitude fields of the search form with the values Lat Min = 25, Lat Max = 40, Lon Min = 48, Lon Max = 63 and the click the “Search” button (you can of course change all these settings).
 
 From the list of observations select the third one and then choose 5005.37 nm as wavelength and “Red temperature” as palette (the 5 micron band is best suited for thermal analysis).
-After clicking the “Submit” button and waiting a pair of minutes the output page will be loaded: on the left the 3D interactive window is available, with the two 2D projected images (zoomed to the selection and covering the entire target) on the right. The links below them allows the download of the PostScript version of this images, whereas at the bottom of the page the links to download 2D GIS and 3D Paraview files will be located.
+After clicking the “Submit” button and waiting a pair of minutes the output page will be loaded:  the two 2D projected images (zoomed to the selection and covering the entire target) on the right, while the 3D online visualization is disable for large bodies (such as Vesta). The links below them allows the download of the PostScript version of this images, whereas at the bottom of the page the links to download 2D GIS and 3D Paraview files will be located.
 
 These are TGZ compressed files containing, respectively, 4 and 2 files: the 2D files are a GeoTIFF one and an ENVI IMG+HDR couple (with a readme.txt attached). In the 3D TGZ, along with the readme.txt a VTP file is present: this file can be opened with Paraview.
