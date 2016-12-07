@@ -29,14 +29,14 @@ In the next future the collaborations with scientific teams of Rosetta and Dawn 
 +	Retrieval of content of specific minerals
 
 ![alt text][Figure 2]
-[Figure 1]: https://github.com/openplanetary/openplanetary.github.io/blob/master/img/matisse/fig8.png "Fig. 2: Example of web visualization of data from comet 67P Churyumov-Gerasimenko"
+[Figure 2]: https://github.com/openplanetary/openplanetary.github.io/blob/master/img/matisse/fig8.png "Fig. 2: Example of web visualization of data from comet 67P Churyumov-Gerasimenko"
 
 MATISSE generates higher-order outputs, such as false colors (RGB), ratios, mosaics and differences, computed on demand starting from the single observations available in the archive.
 
 All its outputs can be viewed directly on the web (in 3D and 2D) or downloaded for offline use with external software (i.e., 2D FITS, GeoTIFF and ENVI; 3D [Paraview](http://www.paraview.org/)).
 
 ![alt text][Figure 3]
-[Figure 1]: https://github.com/openplanetary/openplanetary.github.io/blob/master/img/matisse/FIG12.png "Fig. 3: High resolution, offline visualization (Paraview) of a lunar crater, using Chinese Chang’e 1 data."
+[Figure 3]: https://github.com/openplanetary/openplanetary.github.io/blob/master/img/matisse/FIG12.png "Fig. 3: High resolution, offline visualization (Paraview) of a lunar crater, using Chinese Chang’e 1 data."
 
 To access the tool, go to [its homepage](http://tools.asdc.asi.it/matisse.jsp) and follow the instructions described in the [User Manual](http://tools.asdc.asi.it/download/MATISSEv1-2.pdf).
 
