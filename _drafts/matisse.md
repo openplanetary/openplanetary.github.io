@@ -12,35 +12,41 @@ image:
 
 ##MATISSE
 
-[MATISSE](http://tools.asdc.asi.it/matisse.jsp) (Multi-purpose Advanced Tool for the Instruments for the Solar System Exploration) is a tool developed by [ASDC](http://www.asdc.asi.it/) since early 2013, with the purpose of improving both the accessibility of planetological data and their visualition directly on the 3D shape model of the selected object.
+[MATISSE](http://tools.asdc.asi.it/matisse.jsp) (Multi-purpose Advanced Tool for the Instruments for the Solar System Exploration) is a tool developed by [ASDC](http://www.asdc.asi.it/) since early 2013, with the purpose of improving both the accessibility of planetological data and their visualization directly on the 3D shape model of the selected object.
 
 Using both public and proprietary data, thanks to several collaborations, currently MATISSE allows access to dataset from 6 different targets (the Moon, Mercury, asteroids 4 Vesta and 21 Lutetia, comet 67P Churyumov-Gerasimenko and dwarf planet 1 Ceres) and, by means of a MySQL database, it is possible to perform queries based on temporal, geographical (latitude, longitude) and geometrical (incidence, emission and phase angles) metadata [Fig 1].
 Its modular structure also allows the tool to be extended to other datasets, and the possibility to connect to external repositories, using standards such as those of [Planetary Virtual Observatory](http://voparis-europlanet.obspm.fr/utilities/Erard_VOParis_PV2011_proceedings.pdf) and [NASA ODE REST API](http://nesf2014.arc.nasa.gov/sites/default/files/poster-pdfs/Bennett_Keith.pdf), is in its initial phase.
 
 ![alt text][Figure 1]
+
 [Figure 1]: https://github.com/openplanetary/openplanetary.github.io/blob/master/img/matisse/Fig1.png "Fig. 1: MATISSE homepage"
+#####Fig. 1: MATISSE homepage
 
-At the present time NASA ODE REST API has been used to provide access to NASA Messenger MDIS-NAC observations of Mercury, which can be searched and accessed directly from MATISSE. In the next future a strong collaboration with the [VESPA](http://openplanetary.co/blog/tools/vespa.html) team (already started) will likely introduce new features, such as the possibility of querying open access datasets from ESA PSA or using features implemented in [PlanetServer](http://openplanetary.co/blog/science/PS2-introduction.html) for Mars and Moon hyperspectral data.
+At the present time NASA ODE REST API has been used to provide access to NASA Messenger MDIS-NAC observations of Mercury, which can be searched and accessed directly from MATISSE. In the near future a strong ongoin collaboration with the [VESPA](http://openplanetary.co/blog/tools/vespa.html) team will likely introduce new features, such as the possibility of querying open access datasets from ESA PSA or using features implemented in [PlanetServer](http://openplanetary.co/blog/science/PS2-introduction.html) for martian and lunar hyperspectral data.
 
-In the next future the collaborations with scientific teams of Rosetta and Dawn will introduce new features, such as:
-+	Calculation of the aerodynamic coefficients for spherical and aspherical dust grains (useful for comparison with GIADA data)
-+	Dust distribution map views of the released GIADA data
+Our future collaborations with scientific teams of Rosetta and Dawn will introduce new features, such as:
++	Computation of the aerodynamic coefficients for spherical and aspherical dust grains (necessary for dust dynamical modelling aimed at interpreting GIADA data)
++	Dust distribution map views of some of the released GIADA data
 +	Retrieval of VIS/IR absorption bands and spectral indices
 +	Retrieval of content of specific minerals
 
 ![alt text][Figure 2]
-[Figure 2]: https://github.com/openplanetary/openplanetary.github.io/blob/master/img/matisse/fig8.png "Fig. 2: Example of web visualization of data from comet 67P Churyumov-Gerasimenko"
 
-MATISSE generates higher-order outputs, such as false colors (RGB), ratios, mosaics and differences, computed on demand starting from the single observations available in the archive.
+[Figure 2]: https://github.com/openplanetary/openplanetary.github.io/blob/master/img/matisse/fig8.png "Fig. 2: Example of web visualization of data from comet 67P Churyumov-Gerasimenko"
+#####Fig. 2: Example of web visualization of data from comet 67P Churyumov-Gerasimenko
+
+MATISSE generates higher-order outputs, such as false colors (RGB), ratios, mosaics and differences, computed on demand using  the single observations available in the archive.
 
 All its outputs can be viewed directly on the web (in 3D and 2D) or downloaded for offline use with external software (i.e., 2D FITS, GeoTIFF and ENVI; 3D [Paraview](http://www.paraview.org/)).
 
 ![alt text][Figure 3]
-[Figure 3]: https://github.com/openplanetary/openplanetary.github.io/blob/master/img/matisse/FIG12.png "Fig. 3: High resolution, offline visualization (Paraview) of a lunar crater, using Chinese Chang’e 1 data."
+
+[Figure 3]: https://github.com/openplanetary/openplanetary.github.io/blob/master/img/matisse/FIG12.png "Fig. 3: High resolution, offline visualization (Paraview) of a lunar crater, using Chinese Chang’e 1 data"
+#####Fig. 3: High resolution, offline visualization (Paraview) of a lunar crater, using Chinese Chang’e 1 data
 
 To access the tool, go to [its homepage](http://tools.asdc.asi.it/matisse.jsp) and follow the instructions described in the [User Manual](http://tools.asdc.asi.it/download/MATISSEv1-2.pdf).
 
-Here you can find the published paper on [Astronomy and Computing](http://www.sciencedirect.com/science/article/pii/S2213133716300154) (here the [ArXiv](http://arxiv.org/abs/1603.05413) link).
+A paper describing MATISSE, published in Astronomy and Computing journal, can be found at this [link](http://www.sciencedirect.com/science/article/pii/S2213133716300154) (here the [ArXiv](http://arxiv.org/abs/1603.05413) link).
 
 ##Tutorial
 
