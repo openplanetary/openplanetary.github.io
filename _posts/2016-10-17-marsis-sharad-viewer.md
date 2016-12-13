@@ -15,7 +15,7 @@ Two such radars are orbiting around Mars: *MARSIS* on board ESA's Mars Express (
 The data products (*Radargrams*) are matrices where the x-axis spans different sampling points on the planet surface and the y-axis is the power of the echoes over time in the listening window.
 *No standard way to manage this kind of data is established* in the planetary science community and data analysis and interpretation require very often some knowledge of radar signal processing.
 
-[![Screenshot](/img/fcantini/SHARAD_rg_1971502.png "Example of SHARAD radargram")]()
+[![Screenshot](/img/posts/fcantini/SHARAD_rg_1971502.png "Example of SHARAD radargram")]()
 
 
 ### The QGIS plug-in
@@ -25,11 +25,11 @@ Last year we started the development of a **plug-in for the QGIS** software (htt
 By selecting the data of interest on the main QGIS map, the viewer can show radargrams from several orbits simultaneously. Data selected on the map are highlighted on the radrgram, that can be zoomed and panned. The two operating frequencies are visualized for the MARSIS data. A synchronized view is available to show radargrams from different orbits aligned by latitude to easily inspect feature in close, quasi-parallel orbits. Highlighted region on the radargrams can be moved to highlight the corresponding data on the QGIS map. Features include manual subsurface structure identification, saving and editing, subsurfaces depth measurement and a pseudo 3D viewer.
 
 
-[![Screenshot](/img/fcantini/viewer.png "MARSIS/SHARAD QGIS viewer plug-in")]()
+[![Screenshot](/img/posts/fcantini/viewer.png "MARSIS/SHARAD QGIS viewer plug-in")]()
 
-[![Screenshot](/img/fcantini/surfaces.png "Subsurfaces depth measument")]()
+[![Screenshot](/img/posts/fcantini/surfaces.png "Subsurfaces depth measument")]()
 
-[![Screenshot](/img/fcantini/3d.png "Pseudo 3D viewer")]()
+[![Screenshot](/img/posts/fcantini/3d.png "Pseudo 3D viewer")]()
 
 
 SHARAD radargrams are fetched by default from the official data repository. Since MARSIS level 2 data release is ongoing, a local MARSIS radargrams repository is currently needed. As MARSIS data will be released, the official repository will become the default source for the plug-in.
@@ -46,7 +46,7 @@ Tracks data include geometric data, relevant metadata and, for MARSIS, quality i
 
 More information are available [here](https://github.com/eSpaceEPFL/marsissharadviewer/blob/master/tracks_db_docs/_build/latex/MARSgroundpenetratingradarstracksGISvectorlayers.pdf).
 
-[![Screenshot](/img/fcantini/map.png "QGIS map with MARSIS tracks")]()
+[![Screenshot](/img/posts/fcantini/map.png "QGIS map with MARSIS tracks")]()
 
 
 

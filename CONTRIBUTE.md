@@ -34,7 +34,7 @@ layout:        post
 title:         "The title of your post"
 subtitle:      "The subtitle of your post"
 authors:       member_id
-header-img:    "img/post-bg-05.jpg"
+header-img:    "img/posts-bg/post-bg-05.jpg"
 category:      Category1
 tags:          [tag1, tag2, tag3]
 slack_channel: channel1
@@ -45,7 +45,7 @@ slack_channel: channel1
 * `title`: specifies title of your post. E.g.: "My awesome workflow"
 * `subtitle`: specifies the subtitle of your post. It appears on the post header, and recent posts page.
 * `author`: specifies the post author (only one per post) through a `member_id`, defined in [_data/members.yml](https://github.com/openplanetary/openplanetary.github.io/blob/master/_data/members.yml). If empty, "OpenPlanetary Team" author will be used. List of authors (members with a GitHub account) is available [here](http://openplanetary.co/blog/authors).
-* `header-img` [Optional]: Default post header image is [img/page-bg.jpg](http://openplanetary.co/img/page-bg.jpg). Eg.: "img/post-bg-05.jpg".
+* `header-img` [Optional]: Default post header image is [img/page-bg.jpg](http://openplanetary.co/img/posts-bg/page-bg.jpg). Eg.: "img/posts-bg/post-bg-05.jpg".
 * `category`: specifies the post category. There is only one category per post: `Data`, `Tools`, `Science`, `Community`
 * `tags`: There can be several tags per post, e.g: `[ctx, mro, gist, isis3, Python]`. Try to avoid duplicates, look at existing tags [here](http://openplanetary.co/blog/tags/) first.
 * `slack_channel` [Optional]: specifies Slack channel readers will be directed to to discuss internally with members
@@ -63,7 +63,7 @@ We recommend Markdown. Here is a few resources to get started with format:
 
 #### Images
 
-Should you have any images in your post, upload in the relevant `img/` subdirectory (i.e. using your username, as listed on [members data](https://github.com/openplanetary/openplanetary.github.io/blob/master/_data/members.yml)) using the `post-` prefix, e.g. posts by _nmanaud_ are on [img/nmanaud](https://github.com/openplanetary/openplanetary.github.io/tree/master/img/nmanaud)
+Should you have any images in your post, upload in the relevant `img/posts/` subdirectory (i.e. using your username, as listed on [members data](https://github.com/openplanetary/openplanetary.github.io/blob/master/_data/members.yml)), e.g. posts by _nmanaud_ are on [img/posts/nmanaud](https://github.com/openplanetary/openplanetary.github.io/tree/master/img/posts/nmanaud)
 
 #### Gist and Syntax highlighting
 

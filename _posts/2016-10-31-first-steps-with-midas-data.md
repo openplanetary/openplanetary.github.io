@@ -7,7 +7,7 @@ author:      msbentley
 category:    Science
 tags:        [comets, Rosetta, 67P, MIDAS, AFM, PDS, PSA, Python]
 published:   true
-header-img:  img/msbentley/midas_1_particle_e_header.png
+header-img:  img/posts/msbentley/midas_1_particle_e_header.png
 slack_channel: general
 ---
 
@@ -15,7 +15,7 @@ slack_channel: general
 
 MIDAS, the Micro-Imaging Dust Analysis System, is a unique instrument that flew onboard the Rosetta orbiter. It works by exposing small (1.4 x 2.4mm) slightly sticky targets to the dust environment around the spacecraft. After (hopefully!) collecting dust, the target - which is mounted on the circumference of a wheel which can be both rotated, and translated along its axis - is moved in front of one of sixteen cantilevers. Each of these cantilevers has a 10 µm long sharp tip mounted at its end. This is the sensing element of the [Atomic Force Microscope](https://en.wikipedia.org/wiki/Atomic-force_microscopy) (AFM). The cantilever array is, in turn, mounted on an XYZ stage which can move the tip over the target (and sample) with high precision. The schematic diagram below shows the key components of the instrument (minus the electronics):
 
-![MIDAS schematic](/img/msbentley/midas_1_side_view.png "MIDAS schematic")
+![MIDAS schematic](/img/posts/msbentley/midas_1_side_view.png "MIDAS schematic")
 
 There are two main modes of operation:
 
@@ -38,7 +38,7 @@ I used the opportunity of writing this post to try and access data via the PSA's
 
 Data can be retrieved via the PAIO by encoding the query in the URL. For example, to retrieve all of the MIDAS (`INSTRUMENT_ID=MIDAS`) datasets (`RESOURCE_CLASS=DATA_SET`) at comet 67P (`TARGET_NAME=67P/CHURYUMOV-GERASIMENKO 1 (1`) as an HTML table (`RETURN_TYPE=HTML`) you can simply build a URL [like this](<http://psa.esac.esa.int:8000/aio/jsp/metadata.jsp?INSTRUMENT_ID=MIDAS&RESOURCE_CLASS=DATA_SET&TARGET_NAME=67P/CHURYUMOV-GERASIMENKO%201%20(1&RETURN_TYPE=HTML>). The result of this query is the table below, showing two datasets, ESC1 and ESC2 (the first two periods of the escort phase - after Rosetta arrived at 67P), at the time of writing this post:
 
-![PAIO query](/img/msbentley/midas_1_paio_query.png "PAIO query")
+![PAIO query](/img/posts/msbentley/midas_1_paio_query.png "PAIO query")
 
 If instead one sets `RETURN_TYPE=VOTABLE` then a [VOTable](http://www.ivoa.net/documents/VOTable/) object is returned which, for example, the [astropy.io.votable](http://docs.astropy.org/en/stable/io/votable/) module can read. In the Jupyter Notebook accompanying this post I use this and the `requests` and `pandas` modules to query the data sets and products and sort and filter them. Once a particular data product has been located, a separate request can be made to grab the data themselves (returned as a zip containing the product and associated label).
 
@@ -71,7 +71,7 @@ As all ESA missions, Rosetta data are archived in [PDS format](https://pds.nasa.
 
 The `.IMG` files are actually already written in an AFM format, the BCR format described [here](http://www.imagemet.com/WebHelp6/Default.htm#Reference_Guide/BCR_STM_File_Format.htm). So in fact you can use MIDAS data without any messing around with Python or PDS - just download the free and open source AFM software [Gwyddion](http://gwyddion.net) and away you go. If you have Gwyddion and rename the files to have a `.BCR` extension, then your file manager will also build thumbnails for you so you can easily browse them (at least on Mac/Linux). Here is an example of what you get "out of the box" loading one of these files - display in 2D/3D, statistical analysis, line profiles and much more:
 
-![Gwyddion](/img/msbentley/midas_1_gwyddion.png "Gwyddion")
+![Gwyddion](/img/posts/msbentley/midas_1_gwyddion.png "Gwyddion")
 
 If you browse the `.IMG` files you will notice that the names end in a two-letter code. This specified the data channel. In a single image MIDAS can store a variety of data types, not only the topography (labeled as ZS, for Z set point) but a phase signal (PH) and many others. For now, we will only look at the fundamental topography data - so you can also filter product names ending in `_ZS`.
 
@@ -92,12 +92,12 @@ _Note: most of these data are also available in the detached header of the image
 In the code below, the values are simply read into a `numpy` array and the integer values multiplied by the scaling factor to get a value in nanometres. Using the xlength and ylength values, `matplotlib` can be used to show these height fields (click to open each at full res in a new tab):
 
 <div>
-  <a href="{{ site.baseurl }}/img/msbentley/midas_1_IMG_1509813_1512600_054_ZS_MPL.png" target="_blank">
-    <img src="/img/msbentley/midas_1_IMG_1509813_1512600_054_ZS_MPL.png" width="32%" style="padding:4px; border-radius: 5%; display:inline-block;"></a>
-  <a href="{{ site.baseurl }}/img/msbentley/midas_1_IMG_1507001_1508813_005_ZS_MPL.png" target="_blank">
-    <img src="/img/msbentley/midas_1_IMG_1507001_1508813_005_ZS_MPL.png" width="32%" style="padding:4px; border-radius: 5%; display:inline-block;"></a>
-  <a href="{{ site.baseurl }}/img/msbentley/midas_1_IMG_1501323_1504200_013_ZS_MPL.png" target="_blank">
-    <img src="/img/msbentley/midas_1_IMG_1501323_1504200_013_ZS_MPL.png" width="32%" style="padding:4px; border-radius: 5%; display:inline-block;"></a>
+  <a href="{{ site.baseurl }}/img/posts/msbentley/midas_1_IMG_1509813_1512600_054_ZS_MPL.png" target="_blank">
+    <img src="/img/posts/msbentley/midas_1_IMG_1509813_1512600_054_ZS_MPL.png" width="32%" style="padding:4px; border-radius: 5%; display:inline-block;"></a>
+  <a href="{{ site.baseurl }}/img/posts/msbentley/midas_1_IMG_1507001_1508813_005_ZS_MPL.png" target="_blank">
+    <img src="/img/posts/msbentley/midas_1_IMG_1507001_1508813_005_ZS_MPL.png" width="32%" style="padding:4px; border-radius: 5%; display:inline-block;"></a>
+  <a href="{{ site.baseurl }}/img/posts/msbentley/midas_1_IMG_1501323_1504200_013_ZS_MPL.png" target="_blank">
+    <img src="/img/posts/msbentley/midas_1_IMG_1501323_1504200_013_ZS_MPL.png" width="32%" style="padding:4px; border-radius: 5%; display:inline-block;"></a>
 </div>
 
 You should see that this gives a similar result to the figures in the _Nature_ paper, which are a processed crops of these same scans. There are a few things to note - in the first two figures, the target substrate appears not to be flat - this is due to a combination of the slope between the XYZ scanner and the target, and drifts (due to temperature, for example). Knowing that the substrates are in reality rather flat, a standard AFM technique is to mask out the particles and either fit a plane, or polynomial, surface and subtract this from the data.
@@ -106,7 +106,7 @@ You should see that this gives a similar result to the figures in the _Nature_ p
 
 Two dimensional plots are great, but since the data are in 3D we should also display them in all their glory! We've already covered reading the data into an array, so now I'm just going to use [plotly](http://www.plot.ly) to render an interactive [3D surface plot](https://plot.ly/python/3d-surface-plots/).
 
-<iframe src="{{site.baseurl}}/img/msbentley/midas_1_plotly.html" width="800" height="500" frameborder="0"></iframe>
+<iframe src="{{site.baseurl}}/img/posts/msbentley/midas_1_plotly.html" width="800" height="500" frameborder="0"></iframe>
 
 ## Animating the data
 

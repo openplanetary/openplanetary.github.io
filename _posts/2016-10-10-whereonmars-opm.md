@@ -4,11 +4,11 @@ title:      '"Where On Mars?" Interactive Map'
 subtitle:   "Building blocks of an Open Planetary Mapping platform for Researchers, Educators, and the General Public"
 description:   "Building blocks of an Open Planetary Mapping platform for Researchers, Educators, and the General Public"
 author:     nmanaud
-header-img: img/nmanaud/wom-opm-header.jpg
+header-img: img/posts/nmanaud/wom-opm-header.jpg
 category: Community
 tags: [Mars, Interactive Map, Open Data, Dataviz, Story telling]
 slack_channel: openplanetarymap
-image: /img/nmanaud/wom-opm-webintent.png
+image: /img/posts/nmanaud/wom-opm-webintent.png
 ---
 
 ## HOW IT STARTED
@@ -21,11 +21,11 @@ I came up with the idea while I was working as Archive Scientist for the ESA's M
 
 The "Where On Mars?" [interactive map](http://whereonmars.co/app) was designed as a *storymap* guiding people through the main scientific and engineering constraints for the selection of the ExoMars 2020 rover landing site. It lets you explore Mars and each candidate landing site. Here is a couple of screenshots showing you the interface:
 
-[![Screenshot](/img/nmanaud/wom-screenshot-1.png "ExoMars LS Geological Constraints")](http://whereonmars.co/app#3)
+[![Screenshot](/img/posts/nmanaud/wom-screenshot-1.png "ExoMars LS Geological Constraints")](http://whereonmars.co/app#3)
 
-[![Screenshot](/img/nmanaud/wom-screenshot-2.png "ExoMars Oxia Planum LS")](http://whereonmars.co/app#5)
+[![Screenshot](/img/posts/nmanaud/wom-screenshot-2.png "ExoMars Oxia Planum LS")](http://whereonmars.co/app#5)
 
-[![Screenshot](/img/nmanaud/wom-screenshot-3.png "ExoMars Aram Dorsum LS")](http://whereonmars.co/app#7)
+[![Screenshot](/img/posts/nmanaud/wom-screenshot-3.png "ExoMars Aram Dorsum LS")](http://whereonmars.co/app#7)
 
 The interface was built as simple javascript client relying on the [CARTO Engine](https://carto.com/engine/) and other open-source mapping technologies for processing, storing, and visualising data on the web: GDAL, Leaflet, etc...
 
