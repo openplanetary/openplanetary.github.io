@@ -45,7 +45,7 @@ slack_channel: channel1
 * `title`: specifies title of your post. E.g.: "My awesome workflow"
 * `subtitle`: specifies the subtitle of your post. It appears on the post header, and recent posts page.
 * `author`: specifies the post author (only one per post) through a `member_id`, defined in [_data/members.yml](https://github.com/openplanetary/openplanetary.github.io/blob/master/_data/members.yml). If empty, "OpenPlanetary Team" author will be used. List of authors (members with a GitHub account) is available [here](http://openplanetary.co/blog/authors).
-* `header-img` [Optional]: Default post header image is [img/page-bg.jpg](http://openplanetary.co/img/posts-bg/page-bg.jpg). Eg.: "img/posts-bg/post-bg-05.jpg".
+* `header-img` [Optional]: Default post header image is [img/page-bg.jpg](http://openplanetary.co/img/page-bg.jpg). Eg.: "img/posts-bg/post-bg-05.jpg".
 * `category`: specifies the post category. There is only one category per post: `Data`, `Tools`, `Science`, `Community`
 * `tags`: There can be several tags per post, e.g: `[ctx, mro, gist, isis3, Python]`. Try to avoid duplicates, look at existing tags [here](http://openplanetary.co/blog/tags/) first.
 * `slack_channel` [Optional]: specifies Slack channel readers will be directed to to discuss internally with members
