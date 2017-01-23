@@ -101,18 +101,18 @@ azinzi:
   email: angelo.zinzi@asdc.asi.it
 mdamore:
   name: Mario D'Amore
-  membership: contributor
-  pic:
-  position:
+  membership: admin
+  pic: mdamore.jpg
+  position: Planetary Scientist
   twitter: kidpixo
   github: kidpixo
   slack: mariodamore
   web:
 bcecconi:
   name: Baptiste Cecconi
-  membership: contributor
-  pic:
-  position:
+  membership: admin
+  pic: bcecconi.jpg
+  position: Planetary Scientist
   twitter: astrobapts
   github: BaptisteCecconi
   slack: baptistececconi
