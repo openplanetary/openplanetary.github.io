@@ -1,0 +1,70 @@
+---
+layout:     post
+title:      "MATISSE opens to PlanetServer queries"
+subtitle:   ""
+author:     azinzi
+header-img:
+category: Community
+tags: [MATISSE, PlanetServer, MARS, WCPS, Spectral Parameters, CRISM]
+slack_channel: 
+image:
+---
+
+##MATISSE opens to PlanetServer queries
+
+[MATISSE] (http://openplanetary.co/blog/tools/matisse.html) is generally known for its capabilities in visualizing data coming from minor bodies (especially those irregularly shaped such as the comet 67P Churyumov-Gerasimenko), but the modular structure behind it makes it a versatile instrument useful [for the OpenPlanetary scopes] (http://openplanetary.co/blog/community/why-openplanetary.html).
+
+An update of the tool has been indeed recently released, with the addition of the possibility of querying external hyperspectral Martian data directly from PlanetServer [1]. The data is stored in the array database Rasdaman capable of using WCPS (Web Coverage Processing Service) queries, a SQL-like language allowing to directly process an image-cube, and in this case NASA MRO-CRISM infrared data are used<sup>1</sup>.
+
+Therefore, from now on, using MATISSE it would be possible to make a WCPS query to CRISM data stored in PlanetServer and then analyse them exploiting capabilities of both PlanetServer and MATISSE, for example making use of spectral parameters.
+These parameters could either be known literature ones (i.e., CRISM products such as OLINDEX3, LCPINDEX2, HCPINDEX2, BD1900_2 [2]) or user-made: once an observation has been selected the user can combine up to four spectral channels to create one parameter. MATISSE allows it in the following way:
+
+####(band_A [OPERATOR1] band_B)/(band_D [OPERATOR2] band_D)
+Operators can be +, -, *, /.
+
+A first example of this new MATISSE capability is the search for olivines on Martian soil. This can be done using the OLINDEX3 spectral parameter described by [2] and making a mosaic in a geographical area delimited by 21.5° < latitude < 23° and 76.5° < longitude < 77.5°, corresponding to Nili Fossae.
+
+In order to select only high-resolution data among the six entries listed from the query type “frt” in the “Search” field above the output table. Now you can select all of the four observations present: after every selection click “Next” and after the last selection (and after clicking “Next” also for this one), be sure that the operation is set to “Average”, select your favourite color table from the list and click “Submit”.
+
+![alt text][Figure 1]
+
+[Figure 1]: https://github.com/openplanetary/openplanetary.github.io/blob/34b94dc0d490a895d1c9e88836a29c1a694c6fb4/img/posts/azinzi/matisse2ps_1.png "Figure 1"
+
+#####Fig. 1: The image selection process in MATISSE.*
+
+The operation here described takes a little more than 10 minutes and the output page will display two images of the requested mosaic: the first one is zoomed in the selected area, the second shows whole Mars (in this case is almost useless as the analysed area is very limited and hardly seen in the map).
+
+![alt text][Figure 2]
+
+[Figure 2]: https://github.com/openplanetary/openplanetary.github.io/blob/34b94dc0d490a895d1c9e88836a29c1a694c6fb4/img/posts/azinzi/matisse2ps_2.png "Figure 1"
+
+#####Fig. 2: MATISSE output page, with the mosaicked Martian data and the links to download the files.*
+
+For Mars (and for large objects in general) the online 3D visualization is not used, but the user can download 2D and 3D files: in particular from the 2D files the GeoTIFF can be directly used with QGIS or similar software, and is already georeferenced with Mars 2000 CRS.
+
+![alt text][Figure 3]
+
+[Figure 3]: https://github.com/openplanetary/openplanetary.github.io/blob/34b94dc0d490a895d1c9e88836a29c1a694c6fb4/img/posts/azinzi/matisse2ps_3.png "Figure 1"
+
+#####Fig. 3: The same mosaic of Figure 2, viewed in QGIS desktop software.*
+
+In the near future an increase of MATISSE’s mosaicking performance is planned, together with the usage of (not global) high-resolution DTMs so that the 3D offline files can be have significance also in the case of Martian data.
+
+Since today another important addition has been completed for MATISSE: following the work started for the Europlanet collaboration [3] the already present NASA’s VIR-Dawn public data acquired on Vesta are processed in order to compute reflectance from radiance (only for wavelengths not larger than 4.2 microns) and, as demonstrated by [4], photometrically correct it.
+In this way the scientific capabilities offered by this public dataset could be sensibly improved using MATISSE.
+
+References
+
+[1] R. Marco Figuera et al, “PlanetServer web client,” , http://doi.org/10.5281/zenodo.200371,  2016.
+
+[2] C. E. Viviano-Beck et al., “Revised CRISM spectral parameters and summary products based on the currently detected mineral diversity on Mars,” J. Geophys. Res. E Planets, vol. 119, no. 6, pp. 1403–1431, Jun. 2014.
+
+[3] A. Longobardo et al. and the Europlanet2020 Team, Data mining and visualization from planetary missions: the VESPA-Europlanet2020 activity, AU 325 Symposium on Astroinformatics, 2017
+
+[4] A. Longobardo et al., Photometric behavior of spectral parameters in Vesta dark and bright regions as inferred by the Dawn VIR spectrometer, Icarus, 240, 20-35, 2014
+
+Footnotes
+
+<sup>1</sup>The first one and the last three spectral channel of this instruments do not work properly. So don’t use them in MATISSE, otherwise you will have a broken output page
+
+
