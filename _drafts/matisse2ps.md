@@ -10,11 +10,11 @@ slack_channel:
 image:
 ---
 
-##MATISSE opens to PlanetServer queries
+##New MATISSE tasks: PlanetServer queries and VIR-Vesta advanced data
 
 [MATISSE] (http://openplanetary.co/blog/tools/matisse.html) is generally known for its capabilities in visualizing data coming from minor bodies (especially those irregularly shaped such as the comet 67P Churyumov-Gerasimenko), but the modular structure behind it makes it a versatile instrument useful [for the OpenPlanetary scopes] (http://openplanetary.co/blog/community/why-openplanetary.html).
 
-An update of the tool has been indeed recently released, with the addition of the possibility of querying external hyperspectral Martian data directly from PlanetServer [1-3]. The data is stored in the array database Rasdaman capable of using WCPS (Web Coverage Processing Service) queries, a SQL-like language allowing to directly process an image-cube, and in this case NASA MRO-CRISM infrared data are used<sup>1</sup>.
+An update of the tool has been indeed recently released, with the addition of the possibility of querying external hyperspectral Martian data directly from PlanetServer [1-3]. The data is stored in the array database Rasdaman capable of using WCPS (Web Coverage Processing Service) queries, a SQL-like language allowing to directly process an image-cube, and in this case NASA MRO-CRISM infrared data are used[<sup>1</sup>].
 
 Therefore, from now on, using MATISSE it would be possible to make a WCPS query to CRISM data stored in PlanetServer and then analyse them exploiting capabilities of both PlanetServer and MATISSE, for example making use of spectral parameters.
 These parameters could either be known literature ones (i.e., CRISM products such as OLINDEX3, LCPINDEX2, HCPINDEX2, BD1900_2 [4]) or user-made: once an observation has been selected the user can combine up to four spectral channels to create one parameter. MATISSE allows it in the following way:
@@ -22,7 +22,7 @@ These parameters could either be known literature ones (i.e., CRISM products suc
 ####(band_A [OPERATOR1] band_B)/(band_D [OPERATOR2] band_D)
 Operators can be +, -, *, /.
 
-A first example of this new MATISSE capability is the search for olivines on Martian soil. This can be done using the OLINDEX3 spectral parameter described by [4] and making a mosaic in a geographical area delimited by 21.5° < latitude < 23° and 76.5° < longitude < 77.5°, corresponding to Nili Fossae.
+A first example of this new MATISSE capability is the search for olivines on Martian soil. This can be done using the OLINDEX3 spectral parameter described by [4] and making a mosaic in a [geographical area delimited by 21.5° < latitude < 23° and 76.5° < longitude < 77.5°] (http://tools.asdc.asi.it/matisse.jsp?target=Mars&minLon=76.5&minLat=21.5&maxLon=77.5&maxLat=23), corresponding to Nili Fossae.
 
 In order to select only high-resolution data among the six entries listed from the query type “frt” in the “Search” field above the output table. Now you can select all of the four observations present: after every selection click “Next” and after the last selection (and after clicking “Next” also for this one), be sure that the operation is set to “Average”, select your favourite color table from the list and click “Submit”.
 
@@ -50,8 +50,9 @@ For Mars (and for large objects in general) the online 3D visualization is not u
 
 In the near future an increase of MATISSE’s mosaicking performance is planned, together with the usage of (not global) high-resolution DTMs so that the 3D offline files can be have significance also in the case of Martian data.
 
-Since today another important addition has been completed for MATISSE: following the work started for the Europlanet collaboration [5] the already present NASA’s VIR-Dawn public data acquired on Vesta are processed in order to compute reflectance from radiance (only for wavelengths not larger than 4.2 microns) and, as demonstrated by [6], photometrically correct it.
+Now another important addition has been completed for MATISSE: following the work started for the Europlanet collaboration [5] the already present NASA’s VIR-Dawn public data acquired on Vesta are processed in order to compute reflectance from radiance (only for wavelengths not larger than 4.2 microns) and, as demonstrated by [6], photometrically correct it.
 In this way the scientific capabilities offered by this public dataset could be sensibly improved using MATISSE.
+You can try this new application by following [this link] (http://tools.asdc.asi.it/matisse.jsp?target=Vesta&minLon=240&minLat=-16&maxLon=247&maxLat=-5), selecting VIR-IR as instrument and 1197 nm as wavelength.
 
 References
 
