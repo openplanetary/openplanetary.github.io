@@ -14,7 +14,7 @@ image:
 
 [MATISSE] (http://openplanetary.co/blog/tools/matisse.html) is generally known for its capabilities in visualizing data coming from minor bodies (especially those irregularly shaped such as the comet 67P Churyumov-Gerasimenko), but the modular structure behind it makes it a versatile instrument useful [for the OpenPlanetary scopes] (http://openplanetary.co/blog/community/why-openplanetary.html).
 
-An update of the tool has been indeed recently released, with the addition of the possibility of querying external hyperspectral Martian data directly from PlanetServer [1-3]. The data is stored in the array database Rasdaman capable of using WCPS (Web Coverage Processing Service) queries, a SQL-like language allowing to directly process an image-cube, and in this case NASA MRO-CRISM infrared data are used[<sup>1</sup>].
+An update of the tool has been indeed recently released, with the addition of the possibility of querying external hyperspectral Martian data directly from PlanetServer [1-3]. The data are stored in the array database Rasdaman capable of using WCPS (Web Coverage Processing Service) queries, a SQL-like language allowing to directly process an image-cube, and in this case NASA MRO-CRISM infrared data are used<sup>1</sup>.
 
 Therefore, from now on, using MATISSE it would be possible to make a WCPS query to CRISM data stored in PlanetServer and then analyse them exploiting capabilities of both PlanetServer and MATISSE, for example making use of spectral parameters.
 These parameters could either be known literature ones (i.e., CRISM products such as OLINDEX3, LCPINDEX2, HCPINDEX2, BD1900_2 [4]) or user-made: once an observation has been selected the user can combine up to four spectral channels to create one parameter. MATISSE allows it in the following way:
@@ -54,7 +54,7 @@ Now another important addition has been completed for MATISSE: following the wor
 In this way the scientific capabilities offered by this public dataset could be sensibly improved using MATISSE.
 You can try this new application by following [this link] (http://tools.asdc.asi.it/matisse.jsp?target=Vesta&minLon=240&minLat=-16&maxLon=247&maxLat=-5), selecting VIR-IR as instrument and 1197 nm as wavelength.
 
-References
+###References
 
 [1] R. Marco Figuera et al, “PlanetServer web client,” , http://doi.org/10.5281/zenodo.200371,  2016.
 
@@ -69,7 +69,7 @@ API, 2016. URL https://doi.org/10.5281/
 
 [6] A. Longobardo et al., Photometric behavior of spectral parameters in Vesta dark and bright regions as inferred by the Dawn VIR spectrometer, Icarus, 240, 20-35, 2014
 
-Footnotes
+###Footnotes
 
 <sup>1</sup>The first one and the last three spectral channel of this instruments do not work properly. So don’t use them in MATISSE, otherwise you will have a broken output page
 
