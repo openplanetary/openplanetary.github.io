@@ -1,6 +1,6 @@
 # Publishing on the OpenPlanetary Blog
 
-To publish on the OpenPlanetary Blog, you need at have a GitHub account.
+To publish on the OpenPlanetary Blog, you need to have a GitHub account.
 
 At the moment, only the OP GitHub [op-team](https://github.com/orgs/openplanetary/teams/op-team) have write permission to the openplanetary.github.io repository, but any GitHub users can make a pull request to upload a post file in the [_posts](https://github.com/openplanetary/openplanetary.github.io/tree/master/_posts) directory.
 
