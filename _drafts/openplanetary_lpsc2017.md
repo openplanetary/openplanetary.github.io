@@ -19,6 +19,7 @@ It was really good to have a dedicated session the first day of the conference. 
 * Planetary Spatial Data Infrastructure
 * Planetary webGIS clients
 * Image processing and Image algorithms
+
 [Here](http://www.lpi.usra.edu/meetings/lpsc2017/pdf/sess153.pdf) you can find a link to the complete list of presenters.
 
 I would like to highlight the talk given by Brent Archinal about the need of a Planetary Spatial Data Infrastructure, the talk given by Sebastien Besse about the new Planetary Science Archive (PSA), the Multi-Mission Geographic Information System for In Situ Mars Operations (MMGIS), a webGIS client capable of giving multi-sensor support presented by Fred Calef and the talk about cross-mission image calibration given by Emerson Speyerer. All the talks in the session had a nice discussion session with few questions.
@@ -33,6 +34,7 @@ This is probably one of the most interesting sessions for the open-source commun
 * PlanetServer web client and Python API
 * The Sparse Multi-Image control Library for sparse n-image network generation
 * iMars webGIS
+
 You can find all the posters [here](http://www.lpi.usra.edu/meetings/lpsc2017/pdf/sess345.pdf).
 
 ## Poster Session:  PLANETARY SPATIAL DATA INFRASTRUCTURE IV: NEW TECHNIQUES, DATASETS, AND INSTRUMENT CALIBRATION ADVANCES
@@ -41,6 +43,7 @@ In this session we had the opportunity to see a large number of new datasets and
 * Error analysis and statistics for remote sensing data
 * Lunar gamma ray spectra archiving
 * Automatic machine learning classification of Dawn/VNIR Data
+
 A complete lsit of posters can be found in this [link](http://www.lpi.usra.edu/meetings/lpsc2017/pdf/sess346.pdf).
 
 ## MAPSIT discussion
