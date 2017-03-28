@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Openplanetary and open-source tools at LPSC2017"
+title:      "Openplanetary is back from the LPSC 2017 and we have some things to tell you"
 subtitle:   
 author:     ramiromf
 header-img:
@@ -10,7 +10,7 @@ slack_channel: general
 image:
 ---
 
-# Openplanetary and open-source tools at LPSC2017
+# Openplanetary is back from the LPSC 2017 and we have some things to tell you
 
 This is not the first [Lunar and Planetary Science Conference (LPSC)](http://www.hou.usra.edu/meetings/lpsc2017/) held after the foundation of Openplanetary, but probably the first LPSC were we tried to promote and spread the Openplanetary philosophy. I think we should take the opportunity to see how was it, the health of the planetary open-source community and what should we do for future conferences and next year's LPSC. Overall, there was a quite significant presence of GIS, data analysis and planetary mapping presentations and posters. Five specific sessions about open-source data analysis and mapping were held at LPSC this year: an oral session, one discussion session and 3 poster sessions.
 
