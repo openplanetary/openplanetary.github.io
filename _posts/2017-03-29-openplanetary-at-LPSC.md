@@ -1,18 +1,18 @@
 ---
 layout:     post
-title:      "Openplanetary is back from the LPSC 2017 and we have some things to tell you"
+title:      "OpenPlanetary is back from the LPSC 2017 and we have some things to tell you"
 subtitle:   
 author:     ramiromf
 header-img:
 category: Community
-tags: [GIS, Openplanetary, open-source, webGIS, LPSC2017]
+tags: [GIS, OpenPlanetary, open-source, webGIS, LPSC2017]
 slack_channel: general
 image:
 ---
 
-# Openplanetary is back from the LPSC 2017 and we have some things to tell you
+# OpenPlanetary is back from the LPSC 2017 and we have some things to tell you
 
-This is not the first [Lunar and Planetary Science Conference (LPSC)](http://www.hou.usra.edu/meetings/lpsc2017/) held after the foundation of Openplanetary, but probably the first LPSC were we tried to promote and spread the Openplanetary philosophy. I think we should take the opportunity to see how was it, the health of the planetary open-source community and what should we do for future conferences and next year's LPSC. Overall, there was a quite significant presence of GIS, data analysis and planetary mapping presentations and posters. Five specific sessions about open-source data analysis and mapping were held at LPSC this year: an oral session, one discussion session and 3 poster sessions.
+This is not the first [Lunar and Planetary Science Conference (LPSC)](http://www.hou.usra.edu/meetings/lpsc2017/) held after the foundation of OpenPlanetary, but probably the first LPSC were we tried to promote and spread the OpenPlanetary philosophy. I think we should take the opportunity to see how was it, the health of the planetary open-source community and what should we do for future conferences and next year's LPSC. Overall, there was a quite significant presence of GIS, data analysis and planetary mapping presentations and posters. Five specific sessions about open-source data analysis and mapping were held at LPSC this year: an oral session, one discussion session and 3 poster sessions.
 
 ## Oral session : PLANETARY SPATIAL DATA INFRASTRUCTURE I: ENABLING EXPLORATION AND RESEARCH ACROSS THE SOLAR SYSTEM
 It was really good to have a dedicated session the first day of the conference. Quite a big crowd joined the session. We had the opportunity to see 9 talks from different topics. The talks can be divided in 3 groups:
@@ -49,8 +49,8 @@ A complete list of posters can be found in this [link](http://www.lpi.usra.edu/m
 ## MAPSIT discussion
 The [MAPSIT](http://www.lpi.usra.edu/mapsit/) discussion toke place on Tuesday noon. It was a rather short although very fruitful 1 hour where the need of having a spatial data infrastructure "Road Map" was discussed. This "Road Map" should be more flushed-out and presented at the end of the [Planetary Data Workshop](http://www.hou.usra.edu/meetings/planetdata2017/) in June.
 
-## Did the people know about Openplanetary?
-That's the million dollar question, and I am afraid to say that the answer is NO. Well, no with some nuances. Some of the presenters and the open-source community at LPSC are already part of Openplanetary but a large number of people hadn't heard about it. This is not a surprise and something to be taken negatively, on the contrary, we can use this as a learning process. We did some heavy sticker bombing the first and second day of the conference and some more lighter sticker showers the rest of the days. This helped a lot to spread the word. For next year we need some "business cards" to target all the poster that can be of interest (á la MAPSIT style).
+## Did the people know about OpenPlanetary?
+That's the million dollar question, and I am afraid to say that the answer is NO. Well, no with some nuances. Some of the presenters and the open-source community at LPSC are already part of OpenPlanetary but a large number of people hadn't heard about it. This is not a surprise and something to be taken negatively, on the contrary, we can use this as a learning process. We did some heavy sticker bombing the first and second day of the conference and some more lighter sticker showers the rest of the days. This helped a lot to spread the word. For next year we need some "business cards" to target all the poster that can be of interest (á la MAPSIT style).
 
 # Some conclusions and things to do
-Overall, I think that having 4 dedicated session at LPSC shows the good health of the planetary data analysis, planetary mapping and the open-source community. Under my point of view, I still think we need to do some work on convincing developers to share codes on github-like platforms as some of the developer teams had non or minimum intention to share the code of their tools. I think we should keep the good work and keep promoting Openplanetary in future conferences. This year at the European Planetary Science Conference (EPSC), a ["Data Analysis Café"](http://meetingorganizer.copernicus.org/EPSC2017/session/26078) will be held by some of the Openplanetary folks. Maybe we can use the experience and try to do something similar for next year's LPSC? Also, to be a bit more visible, we could try to have a booth or use a corner of one of our colleagues? or even some of us can register as microbloggers! Another idea would be to have a "demo" corner at the poster session. A live demo session will allow developers to present and show their tools and give instant feedback. I like the idea of having some 15 minutes live demo vs a 15 minutes static talk. We can start some discussion at the [Planetary Mapping and Virtual Observatory](https://epn-vespa.github.io/mapping2017/) workshop in Roscoff, don't you think?
+Overall, I think that having 4 dedicated session at LPSC shows the good health of the planetary data analysis, planetary mapping and the open-source community. Under my point of view, I still think we need to do some work on convincing developers to share codes on github-like platforms as some of the developer teams had non or minimum intention to share the code of their tools. I think we should keep the good work and keep promoting OpenPlanetary in future conferences. This year at the European Planetary Science Conference (EPSC), a ["Data Analysis Café"](http://meetingorganizer.copernicus.org/EPSC2017/session/26078) will be held by some of the OpenPlanetary folks. Maybe we can use the experience and try to do something similar for next year's LPSC? Also, to be a bit more visible, we could try to have a booth or use a corner of one of our colleagues? or even some of us can register as microbloggers! Another idea would be to have a "demo" corner at the poster session. A live demo session will allow developers to present and show their tools and give instant feedback. I like the idea of having some 15 minutes live demo vs a 15 minutes static talk. We can start some discussion at the [Planetary Mapping and Virtual Observatory](https://epn-vespa.github.io/mapping2017/) workshop in Roscoff, don't you think?
