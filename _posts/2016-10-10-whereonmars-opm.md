@@ -6,7 +6,7 @@ description:   "Building blocks of an Open Planetary Mapping platform for Resear
 author:     nmanaud
 header-img: img/posts/nmanaud/wom-opm-header.jpg
 category: Community
-tags: [Mars, Interactive Map, Open Data, Dataviz, Story telling]
+tags: [Mars, Interactive Map, Open Data, Dataviz, Storytelling]
 slack_channel: openplanetarymap
 image: /img/posts/nmanaud/wom-opm-webintent.png
 ---
@@ -21,11 +21,11 @@ I came up with the idea while I was working as Archive Scientist for the ESA's M
 
 The "Where On Mars?" [interactive map](http://whereonmars.co/app) was designed as a *storymap* guiding people through the main scientific and engineering constraints for the selection of the ExoMars 2020 rover landing site. It lets you explore Mars and each candidate landing site. Here is a couple of screenshots showing you the interface:
 
-[![Screenshot](/img/posts/nmanaud/wom-screenshot-1.png "ExoMars LS Geological Constraints")](http://whereonmars.co/app#3)
+[![Screenshot](/img/posts/nmanaud/wom-screenshot-1.png "ExoMars LS Geological Constraints")](http://whereonmars.co/#3)
 
-[![Screenshot](/img/posts/nmanaud/wom-screenshot-2.png "ExoMars Oxia Planum LS")](http://whereonmars.co/app#5)
+[![Screenshot](/img/posts/nmanaud/wom-screenshot-2.png "ExoMars Oxia Planum LS")](http://whereonmars.co/#5)
 
-[![Screenshot](/img/posts/nmanaud/wom-screenshot-3.png "ExoMars Aram Dorsum LS")](http://whereonmars.co/app#7)
+[![Screenshot](/img/posts/nmanaud/wom-screenshot-3.png "ExoMars Aram Dorsum LS")](http://whereonmars.co/#7)
 
 The interface was built as simple javascript client relying on the [CARTO Engine](https://carto.com/engine/) and other open-source mapping technologies for processing, storing, and visualising data on the web: GDAL, Leaflet, etc...
 
@@ -38,10 +38,10 @@ The source code of the front-end web interface is available on [GitHub](https://
 The interface visualises a selection of the same ESA and NASA's planetary satellite images, and additional geospatial information used by the scientists involved in the selection process.
 
 <div>
-  <img src="http://whereonmars.co/img/basemaps/1.png" width="24%" style="padding:4px; border-radius: 5%; display:inline-block;">
-  <img src="http://whereonmars.co/img/basemaps/2.png" width="24%" style="padding:4px; border-radius: 5%; display:inline-block;">
-  <img src="http://whereonmars.co/img/basemaps/3.png" width="24%" style="padding:4px; border-radius: 5%; display:inline-block;">
-  <img src="http://whereonmars.co/img/basemaps/4.png" width="24%" style="padding:4px; border-radius: 5%; display:inline-block;">
+  <img src="http://whereonmars.co/whereonmars/img/basemaps/1.png" width="24%" style="padding:4px; border-radius: 5%; display:inline-block;">
+  <img src="http://whereonmars.co/whereonmars/img/basemaps/2.png" width="24%" style="padding:4px; border-radius: 5%; display:inline-block;">
+  <img src="http://whereonmars.co/whereonmars/img/basemaps/3.png" width="24%" style="padding:4px; border-radius: 5%; display:inline-block;">
+  <img src="http://whereonmars.co/whereonmars/img/basemaps/4.png" width="24%" style="padding:4px; border-radius: 5%; display:inline-block;">
 </div>
 
 Open source and collaborative from the start, we made these data available to the public through new [**Mars basemaps**](https://github.com/openplanetary/whereonmars/wiki/Basemaps) and [**geospatial data sets**](https://github.com/openplanetary/whereonmars/wiki/CartoDB-Datasets) that can be used to create new map visualisations using the [CARTO Builder](https://carto.com/builder/), or in your web mapping applications.
