@@ -1,3 +1,12 @@
+DEPRECATED
+
+We moved our blogging platform to Medium.
+Write your article in Medium and published it in https://medium.com/openplanetary.
+
+;-)
+
+
+
 # Publishing on the OpenPlanetary Blog
 
 To publish on the OpenPlanetary Blog, you need to have a GitHub account.
