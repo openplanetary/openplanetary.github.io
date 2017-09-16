@@ -1,3 +1,7 @@
+15-SEP-2017: DEPRECATED. Please see [README.md](https://github.com/openplanetary/openplanetary.github.io/blob/master/_posts/CONTRIBUTING.md)
+file.
+
+
 # Publishing on the OpenPlanetary Blog
 
 To publish on the OpenPlanetary Blog, you need to have a GitHub account.

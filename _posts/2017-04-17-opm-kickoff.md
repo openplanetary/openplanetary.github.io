@@ -62,11 +62,11 @@ Being collaborative by nature, we will encourage everyone who is interested in t
 
 At this early stage:
 
-- You can subscribe to our [Newsletter](http://openplanetarymap.org).
-- You can follow us on [Twitter](https://twitter/opmteam).
-- You can watch us on [GitHub](https://github.com/openplanetary/opm).
-- You can comment [this post](#disqus_thread)
-- You can get in touch and chat with us on [Slack](https://openplanetary.slack.com/messages/openplanetarymap).
+* You can subscribe to our [Newsletter](http://openplanetarymap.org).
+* You can follow us on [Twitter](https://twitter/opmteam).
+* You can watch us on [GitHub](https://github.com/openplanetary/opm).
+* You can comment [this post](#disqus_thread)
+* You can get in touch and chat with us on [Slack](https://openplanetary.slack.com/messages/openplanetarymap).
 
 [![openplanetarymap.org](/img/posts/nmanaud/opm-screenshot.png "OpenPlanetaryMap")](http://openplanetarymap.org)
 
