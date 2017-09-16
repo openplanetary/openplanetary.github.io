@@ -11,7 +11,7 @@ Our blog is hosted on Medium as _Publication_: *OpenPlanetary*(http://medium.com
 
 http://bit.ly/op-blog-roster
 
-## Topics and guidelines
+### Topics and guidelines
 
 Topics are not limited but include planetary data, tools, workflow, science, community events; for example: availability of planetary data, including information on how the data are found, downloaded, processed, and used for cartography and scientific analysis; trends in data storage and rapid access; analysis and visualization tools using current and new algorithms and methods.
 
