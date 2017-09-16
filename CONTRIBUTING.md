@@ -6,8 +6,8 @@ You can contribute to OpenPlanetary in several ways.
 
 Our blog is hosted on Medium as _Publication_: *OpenPlanetary*(http://medium.com/openplanetary). See it a little bit like a 'GitHub organization' vs your 'GiHub account'...
 
-- Once your account created, you can draft, edit and publish your own _Stories_ (posts), and you can decide to submit them in OpenPlanetary publication if you want. You need to be added as _Writer_ for that (just ask @nmanaud or @aprossi).
-- Publication's _Editors_ can review submissions, add stories, edit and publish submitted drafts, and remove any stories from this publication. If you want to be an OpenPlanetary Publication Editor, ask @nmanaud or @aprossi.
+- Once your account created, you can draft, edit and publish your own _Stories_ (posts), and you can decide to submit them in OpenPlanetary publication if you want. You need to be added as _Writer_ for that. Just ask us via [hello@openplanetary.com], or via Slack ([Nicolas](https://openplanetary.slack.com/messages/nmanaud) or [Angelo](https://openplanetary.slack.com/messages/arosp)).
+- Publication's _Editors_ can review submissions, add stories, edit and publish submitted drafts, and remove any stories from this publication. If you want to be an OpenPlanetary Publication Editor, ask us via [hello@openplanetary.com], or via Slack ( [Nicolas](https://openplanetary.slack.com/messages/nmanaud) or [Angelo](https://openplanetary.slack.com/messages/arosp)).
 
 http://bit.ly/op-blog-roster
 
