@@ -1,15 +1,5 @@
-<<<<<<< HEAD:_posts/CONTRIBUTE.md
 15-SEP-2017: DEPRECATED. Please see [README.md](https://github.com/openplanetary/openplanetary.github.io/blob/master/_posts/CONTRIBUTING.md)
 file.
-=======
-DEPRECATED
-
-We moved our blogging platform to Medium.
-Write your article in Medium and published it in https://medium.com/openplanetary.
-
-;-)
-
->>>>>>> origin/master:CONTRIBUTE.md
 
 
 # Publishing on the OpenPlanetary Blog
