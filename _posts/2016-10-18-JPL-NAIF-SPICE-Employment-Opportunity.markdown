@@ -8,6 +8,8 @@ tags:          [PDS, SPICE, Jobs]
 slack_channel: general
 ---
 
+## [UPDATE] POSITION CLOSED ##
+
 JPL's Navigation and Ancillary Information Facility (NAIF) seeks to hire a new, permanent staff member. 
 
 We are looking for someone who can fill multiple, quite different roles within NAIF.
