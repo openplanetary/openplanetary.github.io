@@ -2,12 +2,11 @@
 title: OpenPlanetary
 description: "OpenPlanetary is an online community and framework for planetary research and education professionals, and the rest of us!"
 header-img: img/page-bg.jpg
-email: openplanetary@gmail.com
+email: hello@openplanetary
 copyright_name: OpenPlanetary
-# url: http://openplanetary.co/
 twitter_username: openplanetary
 github_username:  openplanetary
-email_username: hello@openplanetary.co
+email_username: hello@openplanetary.org
 slack_team: openplanetary
 
 # SEO-specific tags
@@ -21,7 +20,7 @@ twitter:
 logo: /img/op_logo.png
 
 # Google Analytics
-google_tracking_id: UA-83996008-1
+#google_tracking_id: UA-83996008-1
 
 # Build settings
 markdown: kramdown
