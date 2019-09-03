@@ -1,0 +1,15 @@
+---
+layout: page
+title: List
+description: "List of former blog posts."
+header-img: "img/page-bg.jpg"
+image: /img/op-webintent.png
+---
+
+<pre>
+{% for post in site.posts %}
+### [{{ post.title }}](http://openplanetary.github.io{{ post.url | prepend: site.baseurl }})
+{% if post.subtitle %}{{ post.subtitle }}{% endif %}{% assign author = site.data.members[post.author] %}
+*Posted by {% if author %}{{ author.name }}{% else %}{{ site.title }} Team {% endif %} on {{ post.date | date: "%B %-d, %Y" }}*
+{% endfor %}
+</pre>
